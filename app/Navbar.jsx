@@ -54,9 +54,9 @@ export default function Navbar() {
   }, [settingsOpen]);
 
   return (
-    <nav className="dark:bg-black bg-background-primary border-b border-background-secondary fixed w-full top-0 left-0 z-50">
+    <nav className="dark:bg-black bg-background-primary border-b-2 border-background-secondary fixed w-full top-0 left-0 z-50">
       <div className="mx-auto sm:px-6 lg:px-8">
-        <div className="relative flex items-center justify-between h-16 sm:h-20">
+        <div className="relative flex items-center justify-between h-16 sm:h-24">
           {/* Mobile Menu Button */}
           <div className="absolute inset-y-0 left-2 flex items-center sm:hidden">
             <button
@@ -108,23 +108,23 @@ export default function Navbar() {
             <div className="flex-shrink-0">
               <Link href="/">
                 <img
-                  className="h-12 sm:h-16 dark:hidden"
+                  className="h-12 sm:h-20 dark:hidden"
                   src="/LogoXXI.png"
                   alt="Logo Claro"
                 />
                 <img
-                  className="h-12 sm:h-16 hidden dark:block"
+                  className="h-12 sm:h-20 hidden dark:block"
                   src="/LogoXXIBlanco.png"
                   alt="Logo Oscuro"
                 />
               </Link>
             </div>
-            <div className="hidden sm:block sm:ml-6">
+            <div className="hidden sm:block sm:ml-6 text-base">
               <div className="flex space-x-4 items-center h-full">
                 {/* Desktop Dropdown Menus */}
                 <div className="relative group">
                   <button
-                    className={`flex items-center hover:bg-background-secondary hover:text-white px-3 py-2 rounded-md text-sm font-medium ${
+                    className={`flex items-center hover:bg-background-secondary hover:text-white px-3 py-2 rounded-md font-medium ${
                       pathname === "/centro"
                         ? "bg-background-secondary text-white"
                         : "text-black dark:text-white"
@@ -150,7 +150,7 @@ export default function Navbar() {
 
                 <div className="relative group">
                   <button
-                    className={`flex items-center hover:bg-background-secondary hover:text-white px-3 py-2 rounded-md text-sm font-medium ${
+                    className={`flex items-center hover:bg-background-secondary hover:text-white px-3 py-2 rounded-md font-medium ${
                       pathname === "/documentacion"
                         ? "bg-background-secondary text-white"
                         : "text-black dark:text-white"
@@ -176,7 +176,7 @@ export default function Navbar() {
 
                 <div className="relative group">
                   <button
-                    className={`flex items-center hover:bg-background-secondary hover:text-white px-3 py-2 rounded-md text-sm font-medium ${
+                    className={`flex items-center hover:bg-background-secondary hover:text-white px-3 py-2 rounded-md font-medium ${
                       pathname === "/planesyproyectos"
                         ? "bg-background-secondary text-white"
                         : "text-black dark:text-white"
@@ -209,7 +209,7 @@ export default function Navbar() {
             <img className="h-6" src="/logoJunta-2.png" alt="Junta logo" />
           </div>
 
-          <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+          {/* <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <button
               onClick={toggleTheme}
               className="ml-4 p-1 rounded-full text-gray-400 hover:text-black dark:hover:text-white"
@@ -220,16 +220,16 @@ export default function Navbar() {
                 <BsMoon className="text-xl" />
               )}
             </button>
-          </div>
+          </div> */}
 
-          {/*  <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+          <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <div className="relative settings-menu">
               
               <button
                 className="ml-4 p-1 rounded-full text-gray-400 hover:text-black dark:hover:text-white"
                 onClick={() => setSettingsOpen(!settingsOpen)}
               >
-                <BsGear className="text-xl" />
+                <BsGear className="text-2xl" />
               </button>
 
               
@@ -257,7 +257,7 @@ export default function Navbar() {
               )}
           </div> 
 
-         </div>*/}
+         </div>
         </div>
       </div>
 

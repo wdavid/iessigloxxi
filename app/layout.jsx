@@ -25,9 +25,9 @@ export default function RootLayout({ children }) {
         <meta property="og:image" content={metadata.openGraph.images[0].url} />
         <meta name="theme-color" content={metadata.themeColor}/>
       </head>
-      <body className='bg-background-primary dark:bg-black font-noto'>
+      <body className='bg-background-primary dark:bg-black font-Nunito-sans'>
         <Navbar />
-        {children}
+          {children}
         <Footer />
       </body>
     </html>
