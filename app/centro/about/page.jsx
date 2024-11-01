@@ -1,9 +1,9 @@
 "use client";
 import React from 'react';
-import { useLanguage } from '/contexts/LanguageContext';
+import { useLanguage } from "@/contexts/LanguageContext"; 
 import Image from 'next/image';
 
-export default function page() {
+export default function AboutPage() {
   const { t } = useLanguage();
   return (
     <div className="bg-background-primary dark:bg-background-tertiary text-white mt-10">
