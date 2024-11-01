@@ -1,3 +1,4 @@
+import { FaBook, FaUserFriends, FaChalkboardTeacher, FaBookmark, FaGlobe, FaCalendarAlt } from 'react-icons/fa';
 const fr = {
   //Navbar
   centro: "Centre",
@@ -59,6 +60,51 @@ const fr = {
             "Nous visons à améliorer la coexistence entre les différentes nationalités, à devenir une référence en matière d'éducation et de coexistence sociale, en offrant une perspective d'avenir et d'intégration sociale, en devenant un lieu générateur d'opportunités dans cette société en transformation numérique. Notre objectif est que nos élèves acquièrent des connaissances, mais aussi des compétences essentielles pour tout citoyen du XXIe siècle, telles que la socialisation et l'intégration dans une société diversifiée.",
             "Nous considérons qu'il est primordial que nos élèves ne marchent pas sans but. NE PAS MARCHER JUSTE POUR MARCHER... MARCHER POUR GRANDIR, petit à petit, en comprenant."
         ],
-    }
+  },
+
+  formp: {
+    title: "FORMATION PROFESSIONNELLE",
+    programas: [
+      {
+        title: "Cycle de Formation de Niveau de Base en Fabrication et Montage",
+        description: "Ce diplôme forme à des tâches fondamentales d'usinage et d'assemblage dans la fabrication mécanique, travaillant avec des matériaux tels que les métaux ferreux, non ferreux et les technoplastiques. Il permet également d'acquérir des compétences dans l'installation et la maintenance des systèmes de plomberie, chauffage et climatisation. Le tout est réalisé dans le respect des normes de qualité, de sécurité au travail et de protection de l'environnement, et encourage la communication orale et écrite en espagnol, en langue co-officielle le cas échéant, et dans une langue étrangère.",
+        image: "/taller1.jpeg",
+        link: "https://www.juntadeandalucia.es/educacion/portals/web/formacion-profesional-andaluza/fp-basica/detalle-titulo?idTitulo=146",
+      },
+      {
+        title: "Cycle de Formation de Niveau Intermédiaire en Soudure et Chaudronnerie",
+        description: "Ce diplôme forme à la fabrication, l'assemblage et la réparation dans la chaudronnerie, tuyauterie, structures et menuiserie métallique. Cela inclut l'application de techniques de soudage, d'usinage et de formage, en respectant toujours les normes de qualité, de sécurité au travail et de protection de l'environnement.",
+        image: "/soldaduria.jpg",
+        link: "https://www.juntadeandalucia.es/educacion/portals/web/formacion-profesional-andaluza/fp-basica/detalle-titulo?idTitulo=146",
+      },
+    ],
+    moreInfo: "Plus d'Informations...",
+  },
+  
+  biblio: {
+    title: "Bibliothèque Scolaire",
+    description: [
+      "L'espace de la Bibliothèque Scolaire couvre environ 60 mètres carrés et est situé au deuxième étage de l'aile droite du bâtiment. Cet espace vaste, lumineux et accueillant est doté de vitrines, de tables, d'ordinateurs et d'une décoration réalisée par les élèves, créant une ambiance idéale pour l'étude et la lecture.",
+      "La Bibliothèque est accessible pendant les heures de cours, de 8h00 à 14h30, et également pendant les récréations, sous la supervision des enseignants de l'Équipe de Soutien. Son objectif principal est de promouvoir la lecture et de soutenir le programme scolaire des matières."
+    ],
+    servicesTitle: "Services de la Bibliothèque",
+    services: [
+      { icon: FaBook, title: "Prêt et Consultation", description: "Service de prêt et consultation supervisée de tous les fonds de la Bibliothèque Scolaire." },
+      { icon: FaUserFriends, title: "Soutien et Orientation", description: "Orientation de la communauté éducative dans la recherche documentaire et bibliographique." },
+      { icon: FaChalkboardTeacher, title: "Acquisition de Fonds", description: "Répondre aux besoins en ressources bibliographiques de l'établissement." },
+      { icon: FaBookmark, title: "Activités de Lecture", description: "Organisation d'activités pour encourager l'animation et la compréhension de la lecture." },
+      { icon: FaGlobe, title: "Connexion avec les Départements", description: "Coordination avec les départements pour l'acquisition de nouveaux fonds." },
+      { icon: FaCalendarAlt, title: "Événements et Célébrations", description: "Organisation d'événements pour les jours commémoratifs, expositions et concours." },
+    ],
+    focusTitle: "Encouragement à la Lecture et Activités",
+    focus: [
+      "La bibliothèque se concentre sur la lecture compréhensive, l'animation à la lecture et l'organisation d'activités telles que des discussions, des ateliers d'écriture, des illustrations et bien plus encore. Ces événements visent à renforcer l'expression écrite et orale, la créativité et l'esprit critique des élèves.",
+      "La bibliothèque agit comme un centre de ressources clé pour divers projets éducatifs, offrant un soutien documentaire et un espace physique pour des activités et des conférences."
+    ],
+    benefitsTitle: "Compétences Transversales",
+    benefits: [
+      "À travers la Bibliothèque, les étudiants peuvent développer des compétences transversales telles que l'extraction d'informations, la pensée critique, la créativité et la compréhension de la lecture. Cela permet leur développement intégral dans toutes les matières du programme."
+    ]
+  }
 };
 export default fr;

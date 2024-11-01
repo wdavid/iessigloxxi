@@ -1,3 +1,4 @@
+import { FaBook, FaUserFriends, FaChalkboardTeacher, FaBookmark, FaGlobe, FaCalendarAlt } from 'react-icons/fa';
 const es = {
     // Navbar
     centro: "Centro",
@@ -61,7 +62,68 @@ const es = {
             "Nos encaminamos hacia la mejora de la convivencia entre las distintas nacionalidades, lograr ser un referente en educación y convivencia social. Poder ofrecer una proyección de futuro e integración social. Ser un lugar generador de oportunidades, en esta sociedad en transformación digital. Nos encaminamos a que nuestro alumnado adquieran conocimientos, pero también unas habilidades básicas para cualquier ciudadano o ciudadana del siglo XXI, como puede ser la capacidad de socialización e integración en una sociedad diversa, en la que son tan importantes los aspectos básicos de su currículo, de su aprendizaje, de su capacitación, de sus estudios.",
             "Consideramos primordial que nuestro alumnado no camine por caminar, NO ANDE POR ANDAR... CAMINAR PARA IR CRECIENDO, poquito a poco, entendiendo."
         ],
-    }
+    },
+
+    formp: {
+        title: "FORMACIÓN PROFESIONAL",
+        programas: [
+            {
+                title: "Ciclo Formativo Grado Básico Fabricación y Montaje",
+                description: "Este título capacita para realizar tareas fundamentales de mecanizado y ensamblaje en la fabricación mecánica, trabajando con materiales como metales férricos, no férricos y tecno-plásticos. También permite adquirir habilidades en la instalación y mantenimiento de sistemas de fontanería, calefacción y climatización, siguiendo normas de calidad y protección ambiental, y fomentando la comunicación en castellano, lengua cooficial y un idioma extranjero.",
+                image: "/taller1.jpeg",
+                link: "https://www.juntadeandalucia.es/educacion/portals/web/formacion-profesional-andaluza/fp-basica/detalle-titulo?idTitulo=146",
+            },
+            {
+                title: "Ciclo Formativo Grado Medio Soldadura y Calderería",
+                description: "Este título capacita para llevar a cabo procesos de fabricación, montaje y reparación en calderería, tuberías, estructuras y carpintería metálica. Incluye la aplicación de técnicas de soldadura, mecanizado y conformado, cumpliendo con normas de calidad, seguridad laboral y protección ambiental.",
+                image: "/soldaduria.jpg",
+                link: "https://www.juntadeandalucia.es/educacion/portals/web/formacion-profesional-andaluza/fp-basica/detalle-titulo?idTitulo=146",
+            },
+        ],
+        moreInfo: "Más Información...",
+    },
+
+    esob: {
+      title: "EDUCACION SECUNDARIA OBLIGATORIA",
+      programas: [
+          {
+              title: "Oferta Educativa ",
+              description1: "Primero y Segundo curso de Educación Secundaria Obligatoria",
+              description2: "Tercer y Cuarto curso de Educación Secundaria Obligatoria",
+          },
+          {
+              title: "Centro Biingüe francés",
+              description1: "Aula Temporal de Adaptaicón Lingüística (ATAL)",
+              description2: "Programa de Diversificacion Curricular",
+          },
+      ],
+    },
+
+    biblio: {
+        title: "Biblioteca Escolar",
+        description: [
+          "El espacio de la Biblioteca Escolar ocupa aproximadamente unos 60 metros cuadrados, ubicado en la segunda planta del ala derecha del edificio. Este espacio amplio, luminoso y acogedor, cuenta con vitrinas, mesas, ordenadores y decoración realizada por el alumnado, creando un ambiente ideal para el estudio y la lectura.",
+          "La Biblioteca está disponible en horario lectivo, de 8:00 a 14:30 horas, y también durante los recreos, supervisada por el profesorado del Equipo de Apoyo. Su objetivo principal es fomentar la lectura y apoyar el currículum de las asignaturas."
+        ],
+        servicesTitle: "Servicios de la Biblioteca",
+        services: [
+          { icon: FaBook, title: "Préstamo y Consulta", description: "Servicio de préstamo y consulta supervisada de todos los fondos de la Biblioteca Escolar." },
+          { icon: FaUserFriends, title: "Apoyo y Orientación", description: "Orientación a la comunidad educativa en la búsqueda documental y bibliográfica." },
+          { icon: FaChalkboardTeacher, title: "Adquisición de Fondos", description: "Atención a las necesidades de adquisición de recursos bibliográficos." },
+          { icon: FaBookmark, title: "Actividades de Lectura", description: "Organización de actividades para fomentar la animación y comprensión lectora." },
+          { icon: FaGlobe, title: "Conexión con Departamentos", description: "Coordinación con departamentos para la adquisición de nuevos fondos." },
+          { icon: FaCalendarAlt, title: "Eventos y Celebraciones", description: "Organización de eventos para efemérides, exposiciones y concursos." },
+        ],
+        focusTitle: "Fomento de la Lectura y Actividades",
+        focus: [
+          "La biblioteca se enfoca en la lectura comprensiva, animación a la lectura y organización de actividades como tertulias, talleres de escritura, ilustraciones y más. Estos eventos buscan fortalecer la expresión escrita y oral, la creatividad y el juicio crítico del alumnado.",
+          "La biblioteca actúa como un centro de recursos clave para varios proyectos educativos, ofreciendo apoyo documental y un espacio físico para actividades y conferencias."
+        ],
+        benefitsTitle: "Competencias Transversales",
+        benefits: [
+          "A través de la Biblioteca, los estudiantes pueden desarrollar competencias transversales como la extracción de información, el pensamiento crítico, la creatividad y la comprensión lectora. Esto permite su crecimiento integral en todas las áreas del currículum."
+        ]
+      }
   };
   
   export default es;
