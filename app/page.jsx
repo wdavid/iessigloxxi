@@ -58,7 +58,7 @@ export default function Home() {
                 quality={100}
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <div className="w-3/4 md:w-1/2 p-5 rounded-xl backdrop-blur-sm bg-black/30">
+                <div className="w-3/4 md:w-1/2 p-5 rounded-xl backdrop-blur-sm dark:bg-black/30">
                   <h2 className="text-4xl font-bold text-center">{image.title}</h2>
                   <p className="text-lg mt-2 text-center">{image.description}</p>
                 </div>
