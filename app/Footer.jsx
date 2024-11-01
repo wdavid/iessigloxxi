@@ -2,15 +2,17 @@ import React from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { BsEnvelope, BsPhone } from 'react-icons/bs';
 import { MdOutlineLocationOn } from "react-icons/md";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export default function Footer() {
+  const { t } = useLanguage();
   return (
     <footer id="footer" className="bg-background-secondary dark:bg-black text-white py-12">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-wrap justify-between">
           <div className="w-full md:w-1/3 mb-6">
-            <h2 className="text-lg font-bold mb-4">IES SIglo XXI</h2>
-            <p className=" mb-4">Formando futuro con educación de calidad. Únete a nuestra comunidad educativa en Sevilla.</p>
+            <h2 className="text-lg font-bold mb-4">{t.footer.title}</h2>
+            <p className=" mb-4">{t.footer.description}</p>
             <div className="flex space-x-4">
               <a href="https://facebook.com" className="text-white hover:text-gray-400">
                 <FaFacebookF className="text-xl" />
@@ -39,7 +41,7 @@ export default function Footer() {
           </div>
 
           <div className="w-full md:w-1/3 mb-6">
-            <h2 className="text-lg font-bold mb-4">Contacto</h2>
+            <h2 className="text-lg font-bold mb-4">{t.footer.contactTitle}</h2>
             <ul>
               <li className="flex items-center mb-2">
                 <BsPhone className="mr-2" />
@@ -47,7 +49,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center mb-2">
                 <BsEnvelope className="mr-2" />
-                <a href="mailto:info@chiltiupan.com" className="hover:text-gray-400">info@ies.com</a>
+                <a href="mailto:info@chiltiupan.com" className="hover:text-gray-400">41701444.edu@juntadeandalucia.es</a>
               </li>
               <li className="flex items-center">
                 <MdOutlineLocationOn className="mr-2" />
@@ -57,7 +59,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-white pt-6 text-center">
-          <p className="text-sm">&copy; {new Date().getFullYear()} IES Siglo XXI. Todos los derechos reservados</p>
+          <p className="text-sm">&copy; {new Date().getFullYear()} IES Siglo XXI. {t.footer.rights}</p>
         </div>
       </div>
     </footer>

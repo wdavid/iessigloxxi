@@ -30,7 +30,8 @@ const config: Config = {
       fontFamily: {
         'Lato': ['Lato', 'sans-serif'],
         'Barlow': ['Barlow', 'sans-serif'],
-        'noto': ['Noto Sans', 'sans-serif'],
+        'noto': ['Noto Serif', 'sans-serif'],
+        'Nunito-sans': ['Nunito Sans', 'sans-serif'],
       }
     },
   },

@@ -1,10 +1,10 @@
+// RootLayout.js
 "use client";
-import './globals.css';
-import Navbar from './Navbar.jsx';
-import Footer from './Footer.jsx';
-import { metadata } from './metadata';
 import "./globals.css";
-
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import { metadata } from "./metadata";
+import { LanguageProvider } from "/contexts/LanguageContext";
 
 export default function RootLayout({ children }) {
   return (
@@ -23,12 +23,14 @@ export default function RootLayout({ children }) {
         <meta property="og:site_name" content={metadata.openGraph.siteName} />
         <meta property="og:type" content={metadata.openGraph.type} />
         <meta property="og:image" content={metadata.openGraph.images[0].url} />
-        <meta name="theme-color" content={metadata.themeColor}/>
+        <meta name="theme-color" content={metadata.themeColor} />
       </head>
-      <body className='bg-background-primary dark:bg-black font-noto'>
-        <Navbar />
-        {children}
-        <Footer />
+      <body className="bg-background-primary dark:bg-black font-Nunito-sans">
+        <LanguageProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </LanguageProvider>
       </body>
     </html>
   );
