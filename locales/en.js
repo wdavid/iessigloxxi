@@ -47,6 +47,19 @@ const en = {
     address: "C. Torrelaguna, s/n, 41016 Seville",
     rights: "All rights reserved"
   },
+
+  about: {
+    title: "About Us",
+    paragraphs: [
+        "Towards the end of the 20th century, our center, IES Siglo XXI, took its first steps as a Secondary Education Center. Later, we grew with Vocational Training programs, starting with Basic Training for those who wanted to re-engage in a professional orientation within the Manufacturing and Assembly family, and now we offer an Intermediate Level in Welding and Boilermaking. Next year, 2024/2025, we will launch our Dual Vocational Training program, where students receive training at our center while also putting what they learn into practice at a worksite within one of our partner companies.",
+        "Throughout the years, we have participated in various Plans and Programs that have allowed us to expand our teachings with different methodologies, with resources both material and human that have enriched our students. We are currently a Bilingual French Center, participating in the Andalusian Network, Peace Space School, and starting next year our participation in the Learning Community network, beginning our Dream Phase.",
+        "We have received several awards in different categories at the national, provincial, and neighborhood levels from various entities, including the Ministry, Government, and Education departments, as well as from our City Council. Additionally, we have received various sports awards. Examples include the Honor Institution Award to IES Siglo XXI as the Educational Community of the Torreblanca de los Caños neighborhood, recognition for work in preventing and intervening against absenteeism by the Neighborhood Association 'La Casa del Barrio,' the Carmen Hombre Ponzoa Award for enthusiastic contributions to children and youth from the Autonomous Council of Evangelical Culture in Andalusia, and recognition from our City Council, which also awards our students the Academic and Personal Achievement Award each year.",
+        "Our greatest satisfaction is seeing our students leave satisfied and proud of having completed their studies and witnessing their joy when they visit us, acknowledging the importance of their time at the center and the significant role their teachers played in their lives.",
+        "We encourage resilience and personal growth - invictus - transmitting a clear message of overcoming adversity in life and studies, reinforcing their learning in a personalized way adapted to their unique needs.",
+        "We aim to improve coexistence among different nationalities, becoming a benchmark in education and social coexistence. We seek to provide a future outlook and social integration, becoming a place that generates opportunities in this digitally transforming society. Our goal is for students to acquire both knowledge and essential skills for any 21st-century citizen, such as socialization and integration in a diverse society where the basics of their curriculum, learning, and training are essential.",
+        "We consider it essential that our students don't just walk aimlessly. NOT WALK JUST TO WALK... WALK TO GROW, little by little, understanding."
+    ],
+}
 };
 
 export default en;
