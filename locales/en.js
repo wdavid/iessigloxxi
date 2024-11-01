@@ -1,3 +1,4 @@
+import { FaBook, FaUserFriends, FaChalkboardTeacher, FaBookmark, FaGlobe, FaCalendarAlt } from 'react-icons/fa';
 const en = {
   // Navbar
   centro: "Center",
@@ -59,7 +60,52 @@ const en = {
         "We aim to improve coexistence among different nationalities, becoming a benchmark in education and social coexistence. We seek to provide a future outlook and social integration, becoming a place that generates opportunities in this digitally transforming society. Our goal is for students to acquire both knowledge and essential skills for any 21st-century citizen, such as socialization and integration in a diverse society where the basics of their curriculum, learning, and training are essential.",
         "We consider it essential that our students don't just walk aimlessly. NOT WALK JUST TO WALK... WALK TO GROW, little by little, understanding."
     ],
-}
+  },
+
+  formp: {
+    title: "VOCATIONAL TRAINING",
+    programas: [
+      {
+        title: "Basic Training Cycle in Manufacturing and Assembly",
+        description: "This title trains students to perform fundamental machining and assembly tasks in mechanical manufacturing, working with materials such as ferrous metals, non-ferrous metals, and techno-plastics. It also allows students to acquire skills in the installation and maintenance of plumbing, heating, and air conditioning systems. All this is carried out under quality standards, following occupational safety and environmental protection regulations, and promotes oral and written communication in Spanish, in some cases in the co-official language, and in a foreign language.",
+        image: "/taller1.jpeg",
+        link: "https://www.juntadeandalucia.es/educacion/portals/web/formacion-profesional-andaluza/fp-basica/detalle-titulo?idTitulo=146",
+      },
+      {
+        title: "Intermediate Degree Training in Welding and Boiler Making",
+        description: "This title enables students to carry out manufacturing, assembly, and repair processes in boiler making, piping, metal structures, and metal carpentry. This includes the application of welding, machining, and forming techniques, always meeting quality, occupational safety, and environmental protection standards.",
+        image: "/soldaduria.jpg",
+        link: "https://www.juntadeandalucia.es/educacion/portals/web/formacion-profesional-andaluza/fp-basica/detalle-titulo?idTitulo=146",
+      },
+    ],
+    moreInfo: "More Information...",
+  },
+
+  biblio: {
+    title: "School Library",
+    description: [
+      "The School Library covers approximately 60 square meters, located on the second floor of the building's right wing. This spacious, bright, and welcoming area is equipped with display cabinets, tables, computers, and decorations created by the students, providing an ideal setting for study and reading.",
+      "The Library is available during school hours, from 8:00 AM to 2:30 PM, and also during breaks, supervised by the faculty of the Support Team. Its primary goal is to promote reading and support the curriculum of various subjects."
+    ],
+    servicesTitle: "Library Services",
+    services: [
+      { icon: FaBook, title: "Loan and Consultation", description: "Loan service and supervised consultation of all School Library resources." },
+      { icon: FaUserFriends, title: "Support and Guidance", description: "Guidance for the educational community in documentary and bibliographic research." },
+      { icon: FaChalkboardTeacher, title: "Resource Acquisition", description: "Attending to the needs for acquiring bibliographic resources for the school." },
+      { icon: FaBookmark, title: "Reading Activities", description: "Organization of activities to promote reading engagement and comprehension." },
+      { icon: FaGlobe, title: "Department Connections", description: "Coordination with departments for acquiring new resources." },
+      { icon: FaCalendarAlt, title: "Events and Celebrations", description: "Organizing events for commemorations, exhibitions, and competitions." },
+    ],
+    focusTitle: "Reading Promotion and Activities",
+    focus: [
+      "The library focuses on reading comprehension, reading engagement, and organizing activities such as discussions, writing workshops, illustrations, and more. These events aim to strengthen students' writing and speaking skills, creativity, and critical thinking.",
+      "The library acts as a key resource center for various educational projects, offering documentary support and a physical space for activities and conferences."
+    ],
+    benefitsTitle: "Cross-Curricular Skills",
+    benefits: [
+      "Through the Library, students can develop cross-curricular skills such as information extraction, critical thinking, creativity, and reading comprehension. This promotes their holistic development across all areas of the curriculum."
+    ]
+  }
 };
 
 export default en;
