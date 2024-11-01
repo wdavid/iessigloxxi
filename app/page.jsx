@@ -2,28 +2,31 @@
 import Image from "next/image";
 import { useState } from "react";
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
+import { useLanguage } from "../contexts/LanguageContext";
 
-
-const images = [
-  {
-    src: "/mural-fachada.jpg",
-    title: "IES SIGLO XXI",
-    description:
-      "Nos encaminamos a ofrecer una educación integral, preparando a nuestro alumnado para el futuro, no solo en conocimientos, sino en habilidades de socialización, integración y convivencia en la sociedad digital del siglo XXI. ¡ÚNETE A NUESTRA GRAN FAMILIA, TE ESPERAMOS!",
-  },
-  {
-    src: "/multiculturalidad.jpeg",
-    title: "Título 2",
-    description: "Descripción de la imagen 2",
-  },
-  {
-    src: "/diaAndalucia.jpg",
-    title: "Título 3",
-    description: "Descripción de la imagen 3",
-  },
-];
 
 export default function Home() {
+  const { t } = useLanguage();
+
+  const images = [
+    {
+      src: "/mural-fachada.jpg",
+      title: "IES SIGLO XXI",
+      description: t.descriptionhome1,
+    },
+    {
+      src: "/multiculturalidad.jpeg",
+      title: "Título 2",
+      description: "Descripción de la imagen 2",
+    },
+    {
+      src: "/diaAndalucia.jpg",
+      title: "Título 3",
+      description: "Descripción de la imagen 3",
+    },
+  ];
+
+  
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrev = () => {
@@ -91,23 +94,20 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="learn-more" className="py-12 px-6 bg-white dark:bg-background-tertiary">
+      <section className="py-12 px-6 bg-white dark:bg-background-tertiary">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
             <div className="md:col-span-2 mb-2">
-              <div className="sm:flex items-center mb-5 block">
-                <h2 className="text-3xl font-bold text-black dark:text-white">Bienvenidos a </h2>
-                <h2 className="text-3xl font-bold sm:ml-2 text-background-secondary">IES SIGLO XXI</h2>
+              <div className="sm:flex items-center mb-5">
+                <h2 className="text-3xl font-bold text-black dark:text-white">{t.home.welcome}</h2>
+                <h2 className="text-3xl font-bold sm:ml-2 text-background-secondary">{t.home.title}</h2>
               </div>
-              <p className="text-lg mb-6 text-black dark:text-gray-300">
-                Nuestra oferta educativa abarca desde la <span className="font-bold">Educación Secundaria Obligatoria (ESO)</span> hasta la <span className="font-bold">Formación Profesional,</span> incluyendo plazas de <span className="font-bold">Formación Profesional Dual.</span> Somos un centro bilingüe en Francés, lo que nos permite ofrecer una educación enriquecida en un entorno multicultural. Actualmente, contamos con Ciclos Formativos de <span className="font-bold"> Grado Medio en Soldadura y Calderería,</span> pertenecientes a la familia profesional de Fabricación y Montaje.
-              </p>
-              <p className="text-lg mb-6 text-black dark:text-gray-300">
-                A partir del curso <span className="font-bold">2024/2025</span>, nuestros estudiantes de FP DUAL tendrán la oportunidad de combinar la formación en el aula con <span className="font-bold">prácticas en empresas colaboradoras,</span> lo que les permitirá adquirir experiencia real en el sector productivo.
-              </p>
-              <p className="text-lg mb-6 text-black dark:text-gray-300">
-                Como parte de nuestro compromiso con el crecimiento profesional, ofrecemos a nuestros estudiantes la posibilidad de obtener <span className="font-bold">certificaciones reconocidas</span> que amplían su currículum y oportunidades laborales. Además, participamos activamente en diversos programas y proyectos educativos que enriquecen la experiencia formativa de nuestro alumnado.
-              </p>
+              
+              {/* Mapear cada párrafo en su propia línea */}
+              {t.home.paragraphs.map((paragraph, index) => (
+                <p key={index} className="text-lg mb-6 text-black dark:text-gray-300">{paragraph}</p>
+              ))}
+
               <div className="relative w-full mb-2 h-60 overflow-hidden rounded-md shadow-lg mx-auto">
                 <Image
                   src="/fotoPintura.jpg"
@@ -117,22 +117,23 @@ export default function Home() {
                   className="absolute inset-0"
                 />
               </div>
-              <h2 className="underline text-sky-700 dark:text-sky-500">Fotografía de IES SIGLO XXI</h2>
+              <h2 className="underline text-sky-700 dark:text-sky-500">{t.home.imageCaption}</h2>
             </div>
+
             <div className="sm:px-6 sm:pb-6 sm:border-l-2 border-gray-200 dark:border-gray-700 text-black dark:text-white">
-              <h2 className="font-bold py-3 text-lg">Nuestra Ubicacion</h2>
+              <h2 className="font-bold py-3 text-lg">{t.home.locationTitle}</h2>
               <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2868.8723891622067!2d-5.902960624668981!3d37.384930034521815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126f42b3a5906f%3A0xdf57a11f75048359!2sInstituto%20de%20Educaci%C3%B3n%20Secundaria%20IES%20Siglo%20XXI!5e1!3m2!1ses-419!2ses!4v1730413688511!5m2!1ses-419!2ses"
-                  width="100%"
-                  height="100%"
-                  frameBorder="0"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  aria-hidden="false"
-                  tabIndex="0"
-                  title="Mapa de IES SIGLO XXI"
-                  className="rounded-md shadow-lg h-80"
-                ></iframe>
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2868.8723891622067!2d-5.902960624668981!3d37.384930034521815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126f42b3a5906f%3A0xdf57a11f75048359!2sInstituto%20de%20Educaci%C3%B3n%20Secundaria%20IES%20Siglo%20XXI!5e1!3m2!1ses-419!2ses!4v1730413688511!5m2!1ses-419!2ses"
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                style={{ border: 0 }}
+                allowFullScreen
+                aria-hidden="false"
+                tabIndex="0"
+                title="Mapa de IES SIGLO XXI"
+                className="rounded-md shadow-lg h-80"
+              ></iframe>
             </div>
           </div>
         </div>
