@@ -64,6 +64,17 @@ const es = {
         ],
     },
 
+    org: {
+      institutoStructureTitle: "Estructura del Instituto",
+      puestos: {
+        inglesFrances: "Pes Inglés-Francés",
+        apoyoCientifico: "Apoyo al Área Científica o Tecnología",
+        orientacion: "Orientación Educativa P.E.S.",
+        religion: "Religión",
+        lenguaLiteratura: "Lengua Castellana y Literatura P.E.S.",
+      },
+    },
+
     formp: {
         title: "FORMACIÓN PROFESIONAL",
         programas: [
@@ -96,6 +107,17 @@ const es = {
               description1: "Aula Temporal de Adaptaicón Lingüística (ATAL)",
               description2: "Programa de Diversificacion Curricular",
           },
+      ],
+    },
+
+    secret: {
+      title: "Secretaría",
+      scheduleTitle: "Horario de Secretaría",
+      schedule: "De 10:00 a 12:30",
+      contactTitle: "Teléfonos de contacto para cita previa",
+      contactNumbers: [
+        { title: "Teléfono Principal", phone: "955 623 672" },
+        { title: "Teléfono Secundario", phone: "671 594 601" },
       ],
     },
 

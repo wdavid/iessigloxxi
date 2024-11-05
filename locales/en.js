@@ -62,6 +62,17 @@ const en = {
     ],
   },
 
+  org: {
+    institutoStructureTitle: "Institute Structure",
+    puestos: {
+      inglesFrances: "English-French Teacher",
+      apoyoCientifico: "Science and Technology Support",
+      orientacion: "Educational Guidance P.E.S.",
+      religion: "Religion",
+      lenguaLiteratura: "Spanish Language and Literature P.E.S.",
+    },
+  },
+
   formp: {
     title: "VOCATIONAL TRAINING",
     programas: [
@@ -81,6 +92,33 @@ const en = {
     moreInfo: "More Information...",
   },
 
+  esob: {
+    title: "COMPULSORY SECONDARY EDUCATION",
+    programas: [
+      {
+        title: "Educational Offer",
+        description1: "First and second year of Compulsory Secondary Education",
+        description2: "Third and fourth year of Compulsory Secondary Education",
+      },
+      {
+        title: "French Bilingual Center",
+        description1: "Temporary Classroom for Language Adaptation (ATAL)",
+        description2: "Curricular Diversification Program",
+      },
+    ],
+  },
+
+  secret: {
+    title: "Secretariat",
+    scheduleTitle: "Secretariat Hours",
+    schedule: "From 10:00 to 12:30",
+    contactTitle: "Contact numbers for appointments",
+    contactNumbers: [
+      { title: "Main Phone", phone: "955 623 672" },
+      { title: "Secondary Phone", phone: "671 594 601" },
+    ],
+  },
+  
   biblio: {
     title: "School Library",
     description: [

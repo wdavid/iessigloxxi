@@ -49,7 +49,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center mb-2">
                 <BsEnvelope className="mr-2" />
-                <a href="mailto:info@chiltiupan.com" className="hover:text-gray-400">41701444.edu@juntadeandalucia.es</a>
+                <a href="mailto:41701444.edu@juntadeandalucia.es" className="hover:text-gray-400">41701444.edu@juntadeandalucia.es</a>
               </li>
               <li className="flex items-center">
                 <MdOutlineLocationOn className="mr-2" />
