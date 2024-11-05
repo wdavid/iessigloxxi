@@ -62,6 +62,17 @@ const fr = {
         ],
   },
 
+  org: {
+    institutoStructureTitle: "Structure de l'Institut",
+    puestos: {
+      inglesFrances: "Professeur d'Anglais-Français",
+      apoyoCientifico: "Soutien aux Sciences et Technologies",
+      orientacion: "Orientation Éducative P.E.S.",
+      religion: "Religion",
+      lenguaLiteratura: "Langue et Littérature Espagnole P.E.S.",
+    },
+  },
+  
   formp: {
     title: "FORMATION PROFESSIONNELLE",
     programas: [
@@ -81,6 +92,33 @@ const fr = {
     moreInfo: "Plus d'Informations...",
   },
   
+  esob: {
+    title: "ENSEIGNEMENT SECONDAIRE OBLIGATOIRE",
+    programas: [
+      {
+        title: "Offre Éducative",
+        description1: "Première et deuxième année de l'enseignement secondaire obligatoire",
+        description2: "Troisième et quatrième année de l'enseignement secondaire obligatoire",
+      },
+      {
+        title: "Centre bilingue français",
+        description1: "Classe temporaire d'adaptation linguistique (ATAL)",
+        description2: "Programme de Diversification Curriculaire",
+      },
+    ],
+  },
+  
+  secret: {
+    title: "Secrétariat",
+    scheduleTitle: "Horaires du Secrétariat",
+    schedule: "De 10h00 à 12h30",
+    contactTitle: "Numéros de contact pour rendez-vous",
+    contactNumbers: [
+      { title: "Téléphone Principal", phone: "955 623 672" },
+      { title: "Téléphone Secondaire", phone: "671 594 601" },
+    ],
+  },
+
   biblio: {
     title: "Bibliothèque Scolaire",
     description: [
