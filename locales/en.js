@@ -143,6 +143,9 @@ const en = {
     benefits: [
       "Through the Library, students can develop cross-curricular skills such as information extraction, critical thinking, creativity, and reading comprehension. This promotes their holistic development across all areas of the curriculum."
     ]
+  },
+  proat: {
+    title: "Hello good morning"
   }
 };
 
