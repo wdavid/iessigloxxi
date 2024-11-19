@@ -86,10 +86,11 @@ const en = {
         title: "Intermediate Degree Training in Welding and Boiler Making",
         description: "This title enables students to carry out manufacturing, assembly, and repair processes in boiler making, piping, metal structures, and metal carpentry. This includes the application of welding, machining, and forming techniques, always meeting quality, occupational safety, and environmental protection standards.",
         image: "/soldaduria.jpg",
-        link: "https://www.juntadeandalucia.es/educacion/portals/web/formacion-profesional-andaluza/fp-basica/detalle-titulo?idTitulo=146",
+        link: "https://www.juntadeandalucia.es/educacion/portals/web/formacion-profesional-andaluza/fp-grado-medio/detalle-titulo?idTitulo=12",
       },
     ],
     moreInfo: "More Information...",
+    distrib: "Hour Distribution",
   },
 
   esob: {

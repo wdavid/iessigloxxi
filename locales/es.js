@@ -88,10 +88,11 @@ const es = {
                 title: "Ciclo Formativo Grado Medio Soldadura y Calderería",
                 description: "Este título capacita para llevar a cabo procesos de fabricación, montaje y reparación en calderería, tuberías, estructuras y carpintería metálica. Incluye la aplicación de técnicas de soldadura, mecanizado y conformado, cumpliendo con normas de calidad, seguridad laboral y protección ambiental.",
                 image: "/soldaduria.jpg",
-                link: "https://www.juntadeandalucia.es/educacion/portals/web/formacion-profesional-andaluza/fp-basica/detalle-titulo?idTitulo=146",
+                link: "https://www.juntadeandalucia.es/educacion/portals/web/formacion-profesional-andaluza/fp-grado-medio/detalle-titulo?idTitulo=12",
             },
         ],
         moreInfo: "Más Información...",
+        distrib: "Distribución Horaria",
     },
 
     esob: {

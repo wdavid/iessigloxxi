@@ -86,10 +86,11 @@ const fr = {
         title: "Cycle de Formation de Niveau Intermédiaire en Soudure et Chaudronnerie",
         description: "Ce diplôme forme à la fabrication, l'assemblage et la réparation dans la chaudronnerie, tuyauterie, structures et menuiserie métallique. Cela inclut l'application de techniques de soudage, d'usinage et de formage, en respectant toujours les normes de qualité, de sécurité au travail et de protection de l'environnement.",
         image: "/soldaduria.jpg",
-        link: "https://www.juntadeandalucia.es/educacion/portals/web/formacion-profesional-andaluza/fp-basica/detalle-titulo?idTitulo=146",
+        link: "https://www.juntadeandalucia.es/educacion/portals/web/formacion-profesional-andaluza/fp-grado-medio/detalle-titulo?idTitulo=12",
       },
     ],
     moreInfo: "Plus d'Informations...",
+    distrib: "Distribution Horaire",
   },
   
   esob: {
