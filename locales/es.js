@@ -145,8 +145,12 @@ const es = {
         benefits: [
           "A través de la Biblioteca, los estudiantes pueden desarrollar competencias transversales como la extracción de información, el pensamiento crítico, la creatividad y la comprensión lectora. Esto permite su crecimiento integral en todas las áreas del currículum."
         ]
-      }
+      },
+    proat: {
+      title: "Hola buenos dias"
+    }
   };
+
   
   export default es;
   

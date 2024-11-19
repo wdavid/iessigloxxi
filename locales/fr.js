@@ -143,6 +143,9 @@ const fr = {
     benefits: [
       "À travers la Bibliothèque, les étudiants peuvent développer des compétences transversales telles que l'extraction d'informations, la pensée critique, la créativité et la compréhension de la lecture. Cela permet leur développement intégral dans toutes les matières du programme."
     ]
+  },
+  proat: {
+    title: "Bonojour"
   }
 };
 export default fr;
