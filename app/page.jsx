@@ -16,14 +16,19 @@ export default function Home() {
     },
     {
       src: "/multiculturalidad.jpeg",
-      title: "Título 2",
-      description: "Descripción de la imagen 2",
+      title: "APOYO",
+      description: "",
     },
     {
-      src: "/diaAndalucia.jpg",
-      title: "Título 3",
-      description: "Descripción de la imagen 3",
+      src: "/imagenPies.jpg",
+      title: "DIVERSIDAD",
+      description: "",
     },
+    {
+      src: "/companerismo.png",
+      title: "COMPAÑERISMO",
+      description: "",
+    }
   ];
 
   
