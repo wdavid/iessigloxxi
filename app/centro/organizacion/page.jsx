@@ -7,6 +7,11 @@ import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function Organizacion() {
   const { t } = useLanguage();
+  const personalDataEstructura = [
+    { nombre: "Carpio Torres, María del Mar", puesto: "Secretaria", correo: "mcartor326@g.educaand.es" },
+    { nombre: "Rodríguez Mora, Jesús", puesto: "Director", correo: "jrodmor315@g.educaand.es" },
+    { nombre: "Romero Rico, Montserrat", puesto: "Jefa de estudios", correo: "mromric861@g.educaand.es" },
+  ];
 
   const personalData = [
     { nombre: "Aparicio Naranjo, Jerónimo", puesto: "Pes Inglés-Francés", correo: "japanar930@g.educaand.es" },
@@ -54,14 +59,33 @@ export default function Organizacion() {
         <h1 className="text-center text-3xl mb-7 font-bold text-background-secondary dark:text-blue-400">
           {t.org.institutoStructureTitle}
         </h1>
-        
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-10">
+          {personalDataEstructura.map((persona, index) => (
+            <div
+              key={index}
+              className="bg-slate-100 text-black dark:bg-gray-800 p-6 rounded-lg shadow-xl flex flex-col items-center"
+            >
+              <p className="text-xl font-bold text-background-secondary dark:text-blue-400">{persona.puesto}</p>
+              <h2 className="text-base font-bold text-black dark:text-white">{persona.nombre}</h2>
+              <a
+                href={`mailto:${persona.correo}`}
+                className="text-gray-600 dark:text-gray-300 hover:text-gray-500 underline"
+              >
+                {persona.correo}
+              </a>
+            </div>
+          ))}
+        </div>
+
+        <hr className="border-gray-400 dark:border-gray-600 my-6" />
+
         {/* Lista de personal */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {personalData.map((persona, index) => (
-            <div key={index} className="bg-background-secondary dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
-              <h2 className="text-xl font-bold text-white">{persona.nombre}</h2>
-              <p className="text-gray-200">{persona.puesto}</p>
-              <a href={`mailto:${persona.correo}`} className="hover:text-gray-400 text-blue-200 underline">{persona.correo}</a>
+            <div key={index} className="bg-slate-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+              <h2 className="text-xl font-bold text-black dark:text-white">{persona.nombre}</h2>
+              <p className="text-gray-700 dark:text-gray-300">{persona.puesto}</p>
+              <a href={`mailto:${persona.correo}`} className="hover:text-blue-700 text-blue-600 dark:text-blue-200 underline">{persona.correo}</a>
             </div>
           ))}
         </div>

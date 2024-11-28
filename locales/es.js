@@ -1,4 +1,6 @@
 import { FaBook, FaUserFriends, FaChalkboardTeacher, FaBookmark, FaGlobe, FaCalendarAlt } from 'react-icons/fa';
+import { FaHandsHelping, FaUsers, FaHome, FaPaintBrush, FaUserTimes } from 'react-icons/fa';
+
 const es = {
     // Navbar
     centro: "Centro",
@@ -16,7 +18,7 @@ const es = {
     programaciones:"Programaciones",
     proyectoEducativo:"Proyecto Educativo",
     planDeCentro: "Plan de Centro",
-    PROAEmprendimiento: "PROA + Emprendimiento",
+    ProaTransformate: "PROA + Transfórmate",
     auladeEmprendimiento: "Aula de Emprendimiento",
     bilinguismo: "Bilingüismo",
     erasmus: "ERASMUS+",
@@ -145,6 +147,97 @@ const es = {
         benefitsTitle: "Competencias Transversales",
         benefits: [
           "A través de la Biblioteca, los estudiantes pueden desarrollar competencias transversales como la extracción de información, el pensamiento crítico, la creatividad y la comprensión lectora. Esto permite su crecimiento integral en todas las áreas del currículum."
+        ]
+      },
+      comapren: {
+        title: "Comunidad de Aprendizaje",
+        objectives: [
+          {
+            icon: FaHandsHelping,
+            title: "Incidir y mejorar los resultados de aprendizaje del alumnado",
+            description: "Lo fundamental de este proyecto es conseguir que todos los niños y niñas de nuestro centro desarrollen al máximo sus capacidades intelectuales y personales sin que las condiciones sociales externas limiten las expectativas hacia la consecución de dichos logros."
+          },
+          {
+            icon: FaUsers,
+            title: "Conseguir unas adecuadas relaciones sociales y un mejor clima de convivencia",
+            description: "El modelo comunitario de prevención y resolución de conflictos propone acordar las normas con todos los agentes, de forma que toda la comunidad se comprometa en su seguimiento."
+          },
+          {
+            icon: FaChalkboardTeacher,
+            title: "Mejorar la trayectoria formativa del profesorado",
+            description: "Implantar un proyecto de comunidad de aprendizaje en el IES va a suponer seguir formándonos en este proyecto y en las Actuaciones Educativas de Éxito."
+          },
+          {
+            icon: FaHome,
+            title: "Fomentar la participación familiar y la comunidad de Torreblanca",
+            description: "Involucrar a la familia en la vida del instituto es una de las principales motivaciones de este proyecto. Estamos convencidos que consiguiendo este objetivo, se facilitará la consecución del resto de objetivos propuestos."
+          },
+          {
+            icon: FaPaintBrush,
+            title: "Transformar el entorno mejorando su implicación en el Instituto",
+            description: "Adoptar este proyecto implica ir introduciendo un proyecto relacionado: “aprendizaje servicios” trabajar con la comunidad va a permitir introducir cambios en el entorno."
+          },
+          {
+            icon: FaUserTimes,
+            title: "Disminuir el absentismo escolar y el abandono al cumplir los 16 años",
+            description: "Con todos estos objetivos anteriores planteados pretendemos conseguir este último objetivo, aumentar la asistencia del alumnado al instituto y evitar su abandono al cumplir los 16 años."
+          },
+        ]
+      },
+      masequid:{
+        title: "Más Equidad",
+        titleobjetivos: "Objetivos del proyecto",
+        objetivos: [
+          "Fomentar la motivación a través de actividades manipulativas.",
+          "Despertar el interés del alumnado por el centro.",
+          "Movilizar su creatividad.",
+          "Fomentar el trabajo cooperativo.",
+          "Conectar los principales lugares del barrio con el centro.",
+        ],
+        actuaciones: "Actuaciones",
+        descpitactuaciones: "Las actuaciones se dividen en varios talleres:",
+        murodelapaz: "Muro de la Paz",
+        descmurodelapaz: "El mural se realizará en parejas. Uno de los miembros de la pareja se prestará para que su compañero/a marque con tiza el contorno de su cuerpo. Posteriormente, cada uno rellenará su silueta con el color que se le asigne. El resultado será muchas siluetas que representarán la tolerancia, la igualdad y la integración de todos los seres humanos independientemente de su edad, raza o religión.",
+        tallerceramica: "Taller de Cerámica",
+        desctallerceramica: "Se realizará diferentes piezas cerámicas que desarrollen habilidades motrices del alumnado. Si diera tiempo, se realizará un mural cerámico que representa al centro.",
+        huellas: "Huellas",
+        deschuellas: "En este taller se trabajará un cambio visual en el barrio de Torreblanca. Tendrá como fin conectar los principales lugares del barrio mediante rutas formadas por huellas humanas. Cada huella estará estructurada por una palabra de un poema, una canción o una frase de gran significado social y humanitario, elegido por el alumnado. Cada ruta terminará en el Instituto de Educación Secundaria y se podrá enlazar con otras.",
+        talleres: {
+          taller1: {
+            image: "/muropaz.png",
+            title: "Muro de la Paz",
+            description: "El mural se realizará en parejas. Uno de los miembros de la pareja se prestará para que su compañero/a marque con tiza el contorno de su cuerpo. Posteriormente, cada uno rellenará su silueta con el color que se le asigne. El resultado será muchas siluetas que representarán la tolerancia, la igualdad y la integración de todos los seres humanos independientemente de su edad, raza o religión.",
+          },
+          taller2: {
+            image: "/ceramica.png",
+
+            title: "Taller de Cerámica",
+            description: "Se realizará diferentes piezas cerámicas que desarrollen habilidades motrices del alumnado. Si diera tiempo, se realizará un mural cerámico que representa al centro.",
+          },
+          taller3: {
+            image: "/huellas.png",
+            title: "Huellas",
+            description: "En este taller se trabajará un cambio visual en el barrio de Torreblanca. Tendrá como fin conectar los principales lugares del barrio mediante rutas formadas por huellas humanas. Cada huella estará estructurada por una palabra de un poema, una canción o una frase de gran significado social y humanitario, elegido por el alumnado. Cada ruta terminará en el Instituto de Educación Secundaria y se podrá enlazar con otras.",
+          },
+        },
+      },
+      proaproyecto: {
+        title: "PROA",
+        titleobjetivos: "Objetivos del proyecto",
+        objetivos: [
+          "Aumentar los índices generales de éxito escolar.",
+          "Mejorar la convivencia y el clima general del centro.",
+          "Mejorar la integración escolar y social del alumnado.",
+          "Ayudarles a adquirir hábitos de planificación y organización",
+          "Animar y alentar al estudio",
+          "Transmitir una actitud positiva hacia la lectura.",
+          "Hacer frente a actitudes y hábitos escolares negativos"
+        ],
+        descripcion: [
+          "El programa de refuerzo representa en sí una oportunidad única para complementar el aprendizaje realizado por la mañana y afianzar los conocimientos para el cumplimiento de los objetivos marcados.",
+          "Para ello experimentan, utilizan y aplican habilidades comunicativas en el entorno escolar a través del uso espontáneo de la lengua en el aula, tanto en la enseñanza de idiomas como en materias no lingüísticas.",
+          "Esto permite a nuestro alumnado mejorar sus habilidades lingüísticas.",
+          "Para nosotros es importante darle esta oportunidad a nuestro alumnado para que puedan proseguir con normalidad su curso escolar."
         ]
       },
     proat: {

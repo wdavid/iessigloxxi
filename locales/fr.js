@@ -1,4 +1,5 @@
 import { FaBook, FaUserFriends, FaChalkboardTeacher, FaBookmark, FaGlobe, FaCalendarAlt } from 'react-icons/fa';
+import { FaHandsHelping, FaUsers, FaHome, FaPaintBrush, FaUserTimes } from 'react-icons/fa';
 const fr = {
   //Navbar
   centro: "Centre",
@@ -16,7 +17,7 @@ const fr = {
   programaciones: "Programmes",
   proyectoEducativo: "Projet Éducatif",
   planDeCentro: "Plan du Centre",
-  PROAEmprendimiento: "PROA + Entrepreneuriat",
+  ProaTransformate: "PROA + Transforme-toi",
   auladeEmprendimiento: "Classe d'Entrepreneuriat",
   bilinguismo: "Bilinguisme",
   erasmus: "ERASMUS+",
@@ -143,6 +144,60 @@ const fr = {
     benefitsTitle: "Compétences Transversales",
     benefits: [
       "À travers la Bibliothèque, les étudiants peuvent développer des compétences transversales telles que l'extraction d'informations, la pensée critique, la créativité et la compréhension de la lecture. Cela permet leur développement intégral dans toutes les matières du programme."
+    ]
+  },
+  comapren: {
+    title: "Communauté d'Apprentissage",
+    objectives: [
+      {
+        icon: FaHandsHelping,
+        title: "Influencer et améliorer les résultats d'apprentissage des élèves",
+        description: "L'objectif principal de ce projet est de veiller à ce que tous les enfants de notre école développent pleinement leurs capacités intellectuelles et personnelles, sans que les conditions sociales externes ne limitent leurs attentes pour atteindre ces objectifs."
+      },
+      {
+        icon: FaUsers,
+        title: "Établir des relations sociales appropriées et améliorer le climat de coexistence",
+        description: "Le modèle communautaire de prévention et de résolution des conflits propose de s'entendre sur les règles avec tous les acteurs, afin que l'ensemble de la communauté s'engage à leur respect."
+      },
+      {
+        icon: FaChalkboardTeacher,
+        title: "Améliorer le développement éducatif des enseignants",
+        description: "Mettre en place un projet de communauté d'apprentissage au IES impliquera une formation continue sur ce projet et sur les Actuaciones Educativas de Éxito."
+      },
+      {
+        icon: FaHome,
+        title: "Encourager la participation familiale et la communauté de Torreblanca",
+        description: "Impliquer les familles dans la vie de l'école est l'une des principales motivations de ce projet. Nous sommes convaincus qu'atteindre cet objectif facilitera la réalisation des autres objectifs proposés."
+      },
+      {
+        icon: FaPaintBrush,
+        title: "Transformer l'environnement en augmentant son implication avec l'école",
+        description: "Adopter ce projet signifie introduire un projet lié : 'apprentissage par les services'. Travailler avec la communauté permettra de réaliser des changements dans l'environnement."
+      },
+      {
+        icon: FaUserTimes,
+        title: "Réduire l'absentéisme scolaire et l'abandon à 16 ans",
+        description: "Avec tous ces objectifs précédents en place, nous visons à atteindre cet objectif final : augmenter la fréquentation scolaire et prévenir l'abandon scolaire à 16 ans."
+      }
+    ]
+  },  
+  proaproyecto: {
+    title: "PROA",
+    titleobjetivos: "Objectifs du projet",
+    objetivos: [
+      "Augmenter les taux de réussite générale des élèves.",
+      "Améliorer l'atmosphère générale et la coexistence au sein de l'école.",
+      "Améliorer l'intégration académique et sociale des élèves.",
+      "Aider les élèves à acquérir des habitudes de planification et d'organisation.",
+      "Encourager et motiver l'étude.",
+      "Instaurer une attitude positive envers la lecture.",
+      "Faire face aux attitudes et habitudes scolaires négatives."
+    ],
+    descripcion: [
+      "Le programme de renforcement représente une opportunité unique pour compléter l'apprentissage réalisé le matin et renforcer les connaissances afin d'atteindre les objectifs fixés.",
+      "Ainsi, les élèves expérimentent, utilisent et appliquent des compétences communicatives dans l'environnement scolaire grâce à l'utilisation spontanée de la langue en classe, tant dans l'enseignement des langues que dans les matières non linguistiques.",
+      "Cela permet à nos élèves d'améliorer leurs compétences linguistiques.",
+      "Il est important pour nous de donner cette opportunité à nos élèves afin qu'ils puissent poursuivre leur parcours scolaire normalement."
     ]
   },
   proat: {
