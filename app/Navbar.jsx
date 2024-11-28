@@ -190,7 +190,7 @@ export default function Navbar() {
                         href="/planesyproyectos/proa+transformate"
                         className="block rounded-md px-4 py-2 whitespace-nowrap hover:text-white hover:bg-background-secondary"
                       >
-                        {t.PROAEmprendimiento}
+                        {t.ProaTransformate}
                       </Link>
                       <Link
                         href="/planesyproyectos/aula-emprendimiento"

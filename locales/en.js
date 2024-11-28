@@ -1,4 +1,5 @@
 import { FaBook, FaUserFriends, FaChalkboardTeacher, FaBookmark, FaGlobe, FaCalendarAlt } from 'react-icons/fa';
+import { FaHandsHelping, FaUsers, FaHome, FaPaintBrush, FaUserTimes } from 'react-icons/fa';
 const en = {
   // Navbar
   centro: "Center",
@@ -16,7 +17,7 @@ const en = {
   programaciones: "Programs",
   proyectoEducativo: "Educational Project",
   planDeCentro: "Center Plan",
-  PROAEmprendimiento: "PROA + Entrepreneurship",
+  ProaTransformate: "PROA + Transform Yourself",
   auladeEmprendimiento: "Entrepreneurship Classroom",
   bilinguismo: "Bilingualism",
   erasmus: "ERASMUS+",
@@ -144,6 +145,63 @@ const en = {
     benefits: [
       "Through the Library, students can develop cross-curricular skills such as information extraction, critical thinking, creativity, and reading comprehension. This promotes their holistic development across all areas of the curriculum."
     ]
+  },
+  comapren: {
+    title: "Learning Community",
+    objectives: [
+      {
+        icon: FaHandsHelping,
+        title: "Impact and improve the learning outcomes of students",
+        description: "The main goal of this project is to ensure that all the children in our school develop their intellectual and personal capacities to the fullest, without external social conditions limiting their expectations in achieving these goals."
+      },
+      {
+        icon: FaUsers,
+        title: "Establish appropriate social relationships and improve the climate of coexistence",
+        description: "The community-based model for preventing and resolving conflicts suggests agreeing on the rules with all agents, so that the entire community commits to their enforcement."
+      },
+      {
+        icon: FaChalkboardTeacher,
+        title: "Improve the educational development of teachers",
+        description: "Implementing a learning community project at the IES will involve continuous professional development in this project and in the Actuaciones Educativas de Éxito."
+      },
+      {
+        icon: FaHome,
+        title: "Encourage family involvement and the community of Torreblanca",
+        description: "Involving families in the life of the school is one of the main motivations of this project. We are convinced that achieving this objective will facilitate the achievement of the other proposed goals."
+      },
+      {
+        icon: FaPaintBrush,
+        title: "Transform the environment by increasing its involvement with the school",
+        description: "Adopting this project means introducing a related project: 'service learning.' Working with the community will allow for changes in the environment."
+      },
+      {
+        icon: FaUserTimes,
+        title: "Reduce school absenteeism and drop-out rates at the age of 16",
+        description: "With all these previous objectives in place, we aim to achieve this final goal: increasing student attendance and preventing drop-out when students turn 16."
+      }
+    ]
+  },  
+  proaproyecto: {
+    title: "PROA",
+    titleobjetivos: "Project Objectives",
+    objetivos: [
+      "Increase general academic success rates.",
+      "Improve the overall atmosphere and coexistence within the school.",
+      "Improve the academic and social integration of students.",
+      "Help them acquire planning and organization habits.",
+      "Encourage and motivate study.",
+      "Instill a positive attitude towards reading.",
+      "Address negative school attitudes and habits."
+    ],
+    descripcion: [
+      "The reinforcement program represents a unique opportunity to complement the learning done in the morning and solidify knowledge to meet the established objectives.",
+      "Through this, students experiment, use, and apply communication skills in the school environment through the spontaneous use of language in the classroom, both in language teaching and non-linguistic subjects.",
+      "This allows our students to improve their language skills.",
+      "It is important for us to offer this opportunity to our students so they can continue their academic journey smoothly."
+    ]
+  },
+  proat: {
+    title: "Hello good morning"
   }
 };
 
