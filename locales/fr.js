@@ -180,7 +180,43 @@ const fr = {
         description: "Avec tous ces objectifs précédents en place, nous visons à atteindre cet objectif final : augmenter la fréquentation scolaire et prévenir l'abandon scolaire à 16 ans."
       }
     ]
-  },  
+  }, 
+  masequid: {
+    "title": "Plus d'Équité",
+    "titleobjetivos": "Objectifs du projet",
+    "objetivos": [
+      "Favoriser la motivation à travers des activités manuelles.",
+      "Éveiller l'intérêt des élèves pour l'école.",
+      "Mobiliser leur créativité.",
+      "Promouvoir le travail coopératif.",
+      "Connecter les principaux lieux du quartier avec l'école."
+    ],
+    "actuaciones": "Actions",
+    "descpitactuaciones": "Les actions sont divisées en plusieurs ateliers :",
+    "murodelapaz": "Mur de la Paix",
+    "descmurodelapaz": "La fresque sera réalisée en binômes. L'un des membres du binôme se prêtera à ce que son corps soit tracé à la craie. Ensuite, chacun remplira sa silhouette avec la couleur qui lui sera attribuée. Le résultat sera de nombreuses silhouettes représentant la tolérance, l'égalité et l'intégration de tous les êtres humains, indépendamment de leur âge, de leur race ou de leur religion.",
+    "tallerceramica": "Atelier de Céramique",
+    "desctallerceramica": "Différentes pièces en céramique seront réalisées pour développer les compétences motrices des élèves. Si le temps le permet, une fresque en céramique représentant l'école sera réalisée.",
+    "huellas": "Empreintes",
+    "deschuellas": "Cet atelier portera sur un changement visuel dans le quartier de Torreblanca. L'objectif est de connecter les principaux lieux du quartier par des itinéraires formés par des empreintes humaines. Chaque empreinte sera structurée autour d'un mot d'un poème, d'une chanson ou d'une phrase à fort sens social et humanitaire choisie par les élèves. Chaque itinéraire se terminera au Lycée et pourra être relié à d'autres.",
+    "talleres": {
+      "taller1": {
+        "image": "/muropaz.png",
+        "title": "Mur de la Paix",
+        "description": "La fresque sera réalisée en binômes. L'un des membres du binôme se prêtera à ce que son corps soit tracé à la craie. Ensuite, chacun remplira sa silhouette avec la couleur qui lui sera attribuée. Le résultat sera de nombreuses silhouettes représentant la tolérance, l'égalité et l'intégration de tous les êtres humains, indépendamment de leur âge, de leur race ou de leur religion."
+      },
+      "taller2": {
+        "image": "/ceramica.png",
+        "title": "Atelier de Céramique",
+        "description": "Différentes pièces en céramique seront réalisées pour développer les compétences motrices des élèves. Si le temps le permet, une fresque en céramique représentant l'école sera réalisée."
+      },
+      "taller3": {
+        "image": "/huellas.png",
+        "title": "Empreintes",
+        "description": "Cet atelier portera sur un changement visuel dans le quartier de Torreblanca. L'objectif est de connecter les principaux lieux du quartier par des itinéraires formés par des empreintes humaines. Chaque empreinte sera structurée autour d'un mot d'un poème, d'une chanson ou d'une phrase à fort sens social et humanitaire choisie par les élèves. Chaque itinéraire se terminera au Lycée et pourra être relié à d'autres."
+      }
+    }
+  },   
   proaproyecto: {
     title: "PROA",
     titleobjetivos: "Objectifs du projet",

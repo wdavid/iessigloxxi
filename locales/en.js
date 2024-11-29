@@ -181,6 +181,42 @@ const en = {
       }
     ]
   },  
+  masequid: {
+    "title": "More Equity",
+    "titleobjetivos": "Project Objectives",
+    "objetivos": [
+      "Encourage motivation through hands-on activities.",
+      "Spark students' interest in the school.",
+      "Mobilize their creativity.",
+      "Promote cooperative work.",
+      "Connect the main places in the neighborhood with the school."
+    ],
+    "actuaciones": "Actions",
+    "descpitactuaciones": "The actions are divided into several workshops:",
+    "murodelapaz": "Peace Wall",
+    "descmurodelapaz": "The mural will be created in pairs. One of the partners will allow their body to be outlined with chalk. Each will then fill in their silhouette with the color assigned to them. The result will be many silhouettes representing tolerance, equality, and the integration of all human beings, regardless of age, race, or religion.",
+    "tallerceramica": "Ceramics Workshop",
+    "desctallerceramica": "Different ceramic pieces will be created to develop students' motor skills. If there is time, a ceramic mural representing the school will be made.",
+    "huellas": "Footprints",
+    "deschuellas": "This workshop will focus on creating a visual change in the Torreblanca neighborhood. The goal is to connect the main places in the neighborhood through routes formed by human footprints. Each footprint will be structured with a word from a poem, a song, or a socially significant and humanitarian phrase chosen by the students. Each route will end at the Secondary School and can be linked to others.",
+    "talleres": {
+      "taller1": {
+        "image": "/muropaz.png",
+        "title": "Peace Wall",
+        "description": "The mural will be created in pairs. One of the partners will allow their body to be outlined with chalk. Each will then fill in their silhouette with the color assigned to them. The result will be many silhouettes representing tolerance, equality, and the integration of all human beings, regardless of age, race, or religion."
+      },
+      "taller2": {
+        "image": "/ceramica.png",
+        "title": "Ceramics Workshop",
+        "description": "Different ceramic pieces will be created to develop students' motor skills. If there is time, a ceramic mural representing the school will be made."
+      },
+      "taller3": {
+        "image": "/huellas.png",
+        "title": "Footprints",
+        "description": "This workshop will focus on creating a visual change in the Torreblanca neighborhood. The goal is to connect the main places in the neighborhood through routes formed by human footprints. Each footprint will be structured with a word from a poem, a song, or a socially significant and humanitarian phrase chosen by the students. Each route will end at the Secondary School and can be linked to others."
+      }
+    }
+  },  
   proaproyecto: {
     title: "PROA",
     titleobjetivos: "Project Objectives",
