@@ -145,7 +145,34 @@ const en = {
     ]
   },
   proat: {
-    title: "Hello good morning"
+    title: "PROA + Transform",
+    description: [
+      "The Program for Orientation, Advancement, and Educational Enrichment (PROA+) has as its fundamental axis the promotion of the necessary changes in the organizational culture of public schools with greater educational complexity to guarantee the academic success of all students, paying special attention to those in situations of greater vulnerability." ,
+      "This program focuses on eliminating both educational and non-educational barriers that hinder students' academic success, establishing five strategic lines of action:"
+    ],
+    steps: [
+      "Ensure the minimum conditions for students' educability.",
+      "Support students with learning difficulties.",
+      "Develop positive attitudes within the educational institution.",
+      "Improve the teaching and learning process in aspects related to key competencies.",
+      "Implement new forms of organization and management within the educational institution aimed at improving the educational success of all students."
+
+    ]
+  },
+  aulaemp: {
+    title: "Entrepreneurship Classroom",
+    description: [
+      "Project Objectives:",
+      "Promote the entrepreneurial spirit as a transversal basic competency in students' learning processes by creating a versatile, flexible, and open space for the entire educational community and other external agents linked to vocational training. This space should facilitate a positive attitude toward entrepreneurship, encourage students to formulate innovative solutions to social problems, and design products with added socio-economic value.",
+      "Specifically, the objectives established for this first phase of the Entrepreneurship Classroom project at IES Siglo XXI are as follows:",
+      ],
+    steps: [
+      "Training the teacher responsible for the classroom, either through the Teacher Training Center (CEP) or by hiring a specialized company. This training can take place either in the educational institution or at the company or entity providing the training.",
+      "Raise awareness among vocational training students about entrepreneurship in general, including its social, sustainable, or collaborative versions.",
+      "Address the acquisition and development of 'soft skills' in vocational training students as a foundation for success as entrepreneurs, enhancing their autonomy, confidence, responsibility, decision-making in employability, and opening up new opportunities.",
+      "Create a physical space that encourages creativity, innovation, teamwork, and consequently, innovation and entrepreneurship.",
+      "Integrate the SDGs (Sustainable Development Goals) into the various activities carried out within the Entrepreneurship Classroom."
+    ]
   }
 };
 

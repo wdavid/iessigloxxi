@@ -147,7 +147,36 @@ const es = {
         ]
       },
     proat: {
-      title: "Hola buenos dias"
+      title: "PROA + Transformate",
+      description: [
+        "El programa para la orientación, avance y enriquecimiento educativo (PROA+) tiene como eje fundamental impulsar en los centros docentes públicos con mayor complejidad educativa los cambios necesarios en su cultura organizativa para poder así garantizar el éxito escolar de todo el alumnado, prestando especial atención al que se encuentra en situación de mayor vulnerabilidad.",
+        "Este programa incide en la eliminación de las barreras, educativas y no educativas, que impiden el éxito escolar del alumnado, estableciéndose cinco líneas estratégicas de actuación:",
+      ],
+      steps: [
+        "Asegurar las condiciones mínimas de educabilidad del alumnado.",
+        "Apoyar al alumnado con dificultades de aprendizaje.",
+        "Desarrollar actitudes positivas en el centro docente.",
+        "Mejorar el proceso de enseñanza y aprendizaje en aquellos aspectos relacionados con las competencias clave.",
+        "Aplicar nuevas formas de organización y gestión del centro docente orientadas a mejorar el éxito educativo de todo el alumnado."
+      ]
+    },
+    aulaemp: {
+      title: "Aula de Emprendimiento",
+      description: [
+        "Objetivos del proyecto:" ,
+        "Fomentar el espíritu emprendedor como competencia básica transversal en los procesos de aprendizaje del alumnado, creando un espacio versátil, flexible y abierto a toda la comunidad educativa y otros agentes externos vinculados a la formación profesional, que facilite una actitud favorable al emprendimiento, que anime al alumnado a formular soluciones innovadoras para los problemas sociales y diseñen productos con un valor añadido socioeconómico.",
+        "Concretamente, se establecen como objetivos de esta primera fase del proyecto del Aula de Emprendimiento del IES Siglo XXI son los siguientes:"
+      ],
+      steps: [
+        "Formación del docente responsable del aula. Bien por el CEP o a través de la contratación de una empresa especializada pudiéndose desarrollar tanto en el centro educativo como en la propia empresa o entidad que imparta la formación.",
+        "Sensibilizar al alumnado de Formación Profesional en el emprendimiento en general y en sus versiones social, sostenible o colaborativo.",
+        "Abordar la adquisición y desarrollo de las “soft skills” en el alumnado de Formación Profesional como base para triunfar como emprendedores y emprendedoras, potenciando su autonomía, confianza, responsabilidad, la toma de decisiones ante la empleabilidad y abriendo nuevas posibilidades",
+        "Crear un espacio físico que incentive la creatividad, la innovación, el trabajo en equipo y, como consecuencia, la innovación y el emprendimiento.",
+        "Integrar los ODS en las diferentes actividades desarrolladas desde el Aula de Emprendimiento."
+      ]
+    },
+    bilinguismo: {
+      title: "Bilingüismo",
     }
   };
 
