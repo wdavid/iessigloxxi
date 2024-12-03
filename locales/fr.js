@@ -237,7 +237,34 @@ const fr = {
     ]
   },
   proat: {
-    title: "Bonojour"
+    title: "PROA + Transformate",
+    description: [
+      "Le Programme d'Orientation, d'Avancement et d'Enrichissement Éducatif (PROA+) a pour axe fondamental de promouvoir dans les établissements publics présentant une plus grande complexité éducative les changements nécessaires dans leur culture organisationnelle afin de garantir le succès scolaire de tous les élèves, en accordant une attention particulière à ceux qui se trouvent dans une situation de plus grande vulnérabilité." ,
+      "Ce programme se concentre sur l'élimination des barrières, éducatives et non éducatives, qui entravent la réussite scolaire des élèves, en établissant cinq axes stratégiques d'action :"
+    ],
+    steps: [
+      "Assurer les conditions minimales de scolarisation des élèves.",
+      "Soutenir les élèves en difficulté d'apprentissage.",
+      "Développer des attitudes positives au sein de l'établissement scolaire.",
+      "Améliorer le processus d'enseignement et d'apprentissage dans les aspects liés aux compétences clés.",
+      "Appliquer de nouvelles formes d'organisation et de gestion de l'établissement scolaire visant à améliorer la réussite éducative de tous les élèves."
+
+    ]
+  },
+  aulaemp: {
+    title: "Salle d'Entrepreneuriat",
+    description: [
+      "Objectifs du projet :",
+      "Promouvoir l'esprit entrepreneurial comme compétence de base transversale dans les processus d'apprentissage des élèves en créant un espace polyvalent, flexible et ouvert à toute la communauté éducative ainsi qu'à d'autres acteurs externes liés à la formation professionnelle. Cet espace doit favoriser une attitude positive envers l'entrepreneuriat, encourager les élèves à formuler des solutions innovantes aux problèmes sociaux et à concevoir des produits avec une valeur ajoutée socio-économique.",
+      "Plus précisément, les objectifs établis pour cette première phase du projet de la Salle d'Entrepreneuriat de l'IES Siglo XXI sont les suivants :",
+    ],
+    steps: [
+      "Formation de l'enseignant responsable de la salle. Soit par le Centre de Formation des Enseignants (CEP), soit par le biais de l'embauche d'une entreprise spécialisée, cette formation pouvant se dérouler soit dans l'établissement scolaire, soit dans l'entreprise ou l'entité dispensant la formation.",
+      "Sensibiliser les élèves de formation professionnelle à l'entrepreneuriat en général, y compris dans ses versions sociale, durable ou collaborative.",
+      "Aborder l'acquisition et le développement des 'soft skills' chez les élèves de formation professionnelle comme base pour réussir en tant qu'entrepreneurs, en renforçant leur autonomie, leur confiance, leur responsabilité, leur prise de décision en matière d'employabilité et en ouvrant de nouvelles possibilités.",
+      "Créer un espace physique qui stimule la créativité, l'innovation, le travail d'équipe et, par conséquent, l'innovation et l'entrepreneuriat.",
+      "Intégrer les ODD (Objectifs de Développement Durable) dans les différentes activités développées au sein de la Salle d'Entrepreneuriat."
+    ]
   }
 };
 export default fr;
