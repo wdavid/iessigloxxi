@@ -175,9 +175,7 @@ const es = {
         "Integrar los ODS en las diferentes actividades desarrolladas desde el Aula de Emprendimiento."
       ]
     },
-    bilinguismo: {
-      title: "Bilingüismo",
-    }
+    
   };
 
   
