@@ -157,20 +157,26 @@ export default function Navbar() {
                     </button>
                     <div className="absolute hidden group-hover:block bg-white dark:bg-black text-black dark:text-white py-2 rounded-md shadow-lg min-w-[150px]">
                       <Link
-                        href="/documentacion/programaciones"
+                        href="https://drive.google.com/drive/folders/1zZJPH6JJ2DS61YtqxntTcjQYHOHayELx?usp=drive_link"
                         className="block rounded-md px-4 py-2 whitespace-nowrap hover:text-white hover:bg-background-secondary"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         {t.programaciones}
                       </Link>
                       <Link
-                        href="/documentacion/proyecto-educativo"
+                        href="https://drive.google.com/drive/folders/1ADkGPoQXLvVv0eb7PHB89NI64RxEmjBU?usp=drive_link"
                         className="block rounded-md px-4 py-2 whitespace-nowrap hover:text-white hover:bg-background-secondary"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         {t.proyectoEducativo}
                       </Link>
                       <Link
-                        href="/documentacion/plan-de-centro"
+                        href="https://drive.google.com/drive/folders/1kfFCmPCEiZbr_z6hCu1sbPjDSP6w6pjf?usp=drive_link"
                         className="block rounded-md px-4 py-2 whitespace-nowrap hover:text-white hover:bg-background-secondary"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         {t.planDeCentro}
                       </Link>
