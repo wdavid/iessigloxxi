@@ -16,7 +16,7 @@ export default function Page() {
             {t.proaproyecto.titleobjetivos}
           </h3>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 smcard:grid-cols-2 md:grid-cols-3 gap-6">
             {t.proaproyecto.objetivos.map((objetivo, index) => (
               <div
                 key={index}

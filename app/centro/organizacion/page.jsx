@@ -59,7 +59,7 @@ export default function Organizacion() {
         <h1 className="text-center text-3xl mb-7 font-bold text-background-secondary dark:text-blue-400">
           {t.org.institutoStructureTitle}
         </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-10">
+        <div className="grid grid-cols-1 smcard:grid-cols-2 md:grid-cols-3 gap-6 mb-10">
           {personalDataEstructura.map((persona, index) => (
             <div
               key={index}
@@ -80,7 +80,7 @@ export default function Organizacion() {
         <hr className="border-gray-400 dark:border-gray-600 my-6" />
 
         {/* Lista de personal */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 smcard:grid-cols-2 md:grid-cols-3 gap-6">
           {personalData.map((persona, index) => (
             <div key={index} className="bg-slate-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
               <h2 className="text-xl font-bold text-black dark:text-white">{persona.nombre}</h2>

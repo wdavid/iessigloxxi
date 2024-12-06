@@ -11,7 +11,7 @@ export default function ComunidadA() {
           {t.comapren.title}
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
+        <div className="grid grid-cols-1 smcard:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
           {t.comapren.objectives.map((objective, index) => {
             const Icon = objective.icon; // Usamos directamente el icono que está importado en `es.js`
             return (

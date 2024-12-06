@@ -15,7 +15,7 @@ export default function MasEquidad() {
             {t.masequid.titleobjetivos}
           </h3>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 smcard:grid-cols-2 md:grid-cols-3 gap-6">
             {t.masequid.objetivos.map((objetivo, index) => (
               <div
                 key={index}
@@ -33,7 +33,7 @@ export default function MasEquidad() {
             <p className='mb-7'>{t.masequid.descpitactuaciones}</p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8">
+          <div className="grid grid-cols-1 smcard:grid-cols-2 md:grid-cols-3 gap-6 mt-8">
             {/* Usando grid para crear 3 columnas */}
             {Object.values(t.masequid.talleres).map((taller, index) => (
               <div
