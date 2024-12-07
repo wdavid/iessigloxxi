@@ -1,5 +1,6 @@
+"use client";
 import React from 'react';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
 import { BsEnvelope, BsPhone } from 'react-icons/bs';
 import { MdOutlineLocationOn } from "react-icons/md";
 import { useLanguage } from "../contexts/LanguageContext";
@@ -14,21 +15,22 @@ export default function Footer() {
             <h2 className="text-lg font-bold mb-4">{t.footer.title}</h2>
             <p className=" mb-4">{t.footer.description}</p>
             <div className="flex space-x-4">
-              <a href="https://facebook.com" className="text-white hover:text-gray-400">
-                <FaFacebookF className="text-xl" />
-                <span className="sr-only">Facebook</span>
-              </a>
-              <a href="https://twitter.com" className="text-white hover:text-gray-400">
-                <FaTwitter className="text-xl" />
+              
+              <a href="https://youtube.com/@iess.sigloxxi?si=fhyLqhMvjdJLYi_A" target="_blank" className="text-white hover:text-gray-400">
+                <FaYoutube className="text-xl" />
                 <span className="sr-only">Twitter</span>
               </a>
-              <a href="https://instagram.com" className="text-white hover:text-gray-400">
+              <a href="https://www.instagram.com/ies_siglo_xxi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" className="text-white hover:text-gray-400">
                 <FaInstagram className="text-xl" />
                 <span className="sr-only">Instagram</span>
               </a>
-              <a href="https://linkedin.com" className="text-white hover:text-gray-400">
+              <a href="https://www.linkedin.com/company/sigloxxiemprende/posts/?feedView=all" target="_blank" className="text-white hover:text-gray-400">
                 <FaLinkedin className="text-xl" />
                 <span className="sr-only">LinkedIn</span>
+              </a>
+              <a href="https://www.facebook.com/pages/Instituto%20de%20Educaci%C3%B3n%20Secundaria%20Ies%20Siglo%20XXI/891152880980152/" target="_blank" className="text-white hover:text-gray-400">
+                <FaFacebookF className="text-xl" />
+                <span className="sr-only">Facebook</span>
               </a>
             </div>
           </div>

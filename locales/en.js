@@ -25,6 +25,9 @@ const en = {
   masequidad: "More Equity",
   proa: "PROA",
   biblioteca: "Library",
+  enlacesInteres: "Interesting Links",
+  iPasen: "iPasen",
+  secretariaVirtual: "Virtual Secretary",
 
   // Home
   descriptionhome1: "We aim to provide a holistic education, preparing our students for the future not only with knowledge but also with socialization, integration, and coexistence skills in the digital society of the 21st century. JOIN OUR BIG FAMILY, WE'RE WAITING FOR YOU!",

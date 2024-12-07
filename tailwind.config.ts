@@ -32,7 +32,11 @@ const config: Config = {
         'Barlow': ['Barlow', 'sans-serif'],
         'noto': ['Noto Serif', 'sans-serif'],
         'Nunito-sans': ['Nunito Sans', 'sans-serif'],
-      }
+      },
+      screens: {
+        sm: '900px',
+        smcard: '640px',
+      },
     },
   },
   plugins: [],

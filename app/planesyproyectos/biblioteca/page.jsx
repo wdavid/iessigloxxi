@@ -26,7 +26,7 @@ export default function Biblioteca() {
           <h2 className="text-center text-2xl font-semibold text-background-secondary dark:text-blue-400">
             {t.biblio.servicesTitle}
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 smcard:grid-cols-2 md:grid-cols-3 gap-6">
             {t.biblio.services.map((service, index) => (
               <div key={index} className="bg-background-secondary dark:bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-center text-center">
                 <div className="text-3xl text-white dark:text-blue-400 mb-4">
