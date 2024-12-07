@@ -11,6 +11,10 @@ export default function ComunidadA() {
           {t.comapren.title}
         </h2>
 
+        <div className='flex flex-col items-center'>
+          <img src="/comunidadAprendizaje.png" alt="comunidad.png" className='w-80 rounded-lg'/>
+        </div>
+
         <div className="grid grid-cols-1 smcard:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
           {t.comapren.objectives.map((objective, index) => {
             const Icon = objective.icon; // Usamos directamente el icono que está importado en `es.js`

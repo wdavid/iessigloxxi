@@ -16,18 +16,42 @@ export default function Page() {
             {t.proaproyecto.titleobjetivos}
           </h3>
 
-          <div className="grid grid-cols-1 smcard:grid-cols-2 md:grid-cols-3 gap-6">
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
             {t.proaproyecto.objetivos.map((objetivo, index) => (
               <div
                 key={index}
-                className="bg-slate-100 dark:bg-gray-800 text-gray-900 dark:text-gray-300 p-6 rounded-lg shadow-lg"
+                className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:scale-105"
               >
-                <h3 className="text-base text-black dark:text-white mb-3">
+                <div className="flex items-center space-x-4 mb-3">
+                  <div className="bg-blue-500 text-white rounded-full p-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M9 12h6m-6 4h6m-6-8h6m-9 8H6a2 2 0 01-2-2V6a2 2 0 012-2h3m3-1h6m0 0a2 2 0 012 2v3m-1 12h3m-3 0a2 2 0 01-2-2v-3"
+                      />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-bold text-background-secondary dark:text-blue-400">
+                    {`Objetivo ${index + 1}`}
+                  </h3>
+                </div>
+                <p className="text-sm text-gray-700 dark:text-gray-400">
                   {objetivo}
-                </h3>
+                </p>
               </div>
             ))}
           </div>
+
+
           <div className='w-full flex flex-col items-center'>
             <img src="/proaFondoEU.jpg" alt="image" className='my-6 rounded-lg w-96'/>
           </div>
