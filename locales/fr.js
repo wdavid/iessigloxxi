@@ -25,6 +25,9 @@ const fr = {
   masequidad: "Plus d'Équité",
   proa: "PROA",
   biblioteca: "Bibliothèque",
+  enlacesInteres: "Liens d'Intérêt",
+  iPasen: "iPasen",
+  secretariaVirtual: "Secrétariat Virtuel",
 
   //Home
   descriptionhome1: "Nous nous engageons à offrir une éducation intégrale, préparant nos élèves pour l'avenir, non seulement en termes de connaissances, mais aussi en compétences de socialisation, d'intégration et de coexistence dans la société numérique du 21ème siècle. REJOIGNEZ NOTRE GRANDE FAMILLE, NOUS VOUS ATTENDONS !",

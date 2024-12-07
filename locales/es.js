@@ -26,6 +26,9 @@ const es = {
     masequidad: "Más Equidad",
     proa: "PROA",
     biblioteca: "Biblioteca",
+    enlacesInteres: "Enlaces de Interés",
+    iPasen: "iPasen",
+    secretariaVirtual: "Secretaría Virtual",
 
     // Home
     descriptionhome1: "Nos encaminamos a ofrecer una educación integral, preparando a nuestro alumnado para el futuro, no solo en conocimientos, sino en habilidades de socialización, integración y convivencia en la sociedad digital del siglo XXI. ¡ÚNETE A NUESTRA GRAN FAMILIA, TE ESPERAMOS!",
