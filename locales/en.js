@@ -268,7 +268,42 @@ const en = {
       "Create a physical space that encourages creativity, innovation, teamwork, and consequently, innovation and entrepreneurship.",
       "Integrate the SDGs (Sustainable Development Goals) into the various activities carried out within the Entrepreneurship Classroom."
     ]
+  },
+  bilinguis: {
+    title: "Bilingualism",
+    description1: [
+      "Bilingualism Coordinator: Alba Cienfuegos Izquierdo - acieizq594@g.educaand.es",
+      "Our school has been bilingual in French since the 2007/08 academic year throughout the entire secondary level.",
+      "Bilingual education provides a unique opportunity to experience, use, and apply communication skills in the school environment through the spontaneous use of the language in the classroom, both in language teaching and in non-linguistic subjects. Moreover, bilingual classes are supported by a native conversation assistant, bringing all the cultural richness that entails.",
+      "This allows our students to improve their language skills, as in today's society, knowledge of more than one foreign language is increasingly important. For this reason, at our school, we offer students the chance to learn two foreign languages: French as the first foreign language and English as the second foreign language.",
+    ],
+    description2: [
+      "For us, it is important to give this opportunity to our students so they are not disadvantaged in an increasingly demanding job market for foreign language skills.",
+      "Furthermore, at I.E.S. Siglo XXI, we enjoy learning French and discovering Francophone culture... Here are some examples of activities we carry out as part of Bilingualism:",
+    ],
+    talleres: [
+      "1. Crepe and Brussels waffle workshops.",
+      "2. Activities for Andalusia Day.",
+      "3. Our 'Wall of I Love You' for Valentine's Day.",
+      "4. We celebrate Environment Day.",
+    ],
+  },
+  erasmusp: {
+    title: "ERASMUS+",
+    description: "This project aims to contribute to the transformation process of the school into a Learning Community, to strengthen its structures, open the institute, enrich its educational offerings, and awaken new perspectives within the educational community that forms it.",
+    tobjetivo: "Project Objectives",
+    tituloobj: [
+      "Learning Communities",
+      "Digital Competences",
+      "Innovative Methodologies",
+    ],
+    objdescript: [
+      "To learn about and comparatively study Learning Community experiences in European educational contexts, with possible applications in our school.",
+      "To improve teachers' digital skills for the digital transformation of the school, encouraging the use of new technologies and innovative teaching methods.",
+      "To explore methodologies for teaching subjects with foreign languages and to foster a culture of European mobility within the school.",
+    ],
   }
+  
 };
 
 export default en;

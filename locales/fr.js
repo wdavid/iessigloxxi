@@ -268,6 +268,41 @@ const fr = {
       "Créer un espace physique qui stimule la créativité, l'innovation, le travail d'équipe et, par conséquent, l'innovation et l'entrepreneuriat.",
       "Intégrer les ODD (Objectifs de Développement Durable) dans les différentes activités développées au sein de la Salle d'Entrepreneuriat."
     ]
+  },
+  bilinguis: {
+    title: "Bilinguisme",
+    description1: [
+      "Coordinatrice Bilinguisme : Alba Cienfuegos Izquierdo - acieizq594@g.educaand.es",
+      "Notre établissement est bilingue en français depuis l'année scolaire 2007/08 dans tout le collège.",
+      "L'éducation bilingue offre une opportunité unique d'expérimenter, d'utiliser et d'appliquer des compétences communicatives dans un environnement scolaire grâce à l'utilisation spontanée de la langue en classe, que ce soit dans l'enseignement des langues ou dans les matières non linguistiques. De plus, les classes bilingues sont renforcées par un assistant de conversation natif, avec toute la richesse culturelle que cela implique.",
+      "Cela permet à nos élèves d'améliorer leurs compétences linguistiques, car dans la société actuelle, la connaissance de plusieurs langues étrangères devient de plus en plus importante. C'est pourquoi, dans notre établissement, nous offrons à nos élèves la possibilité d'apprendre deux langues étrangères : le français comme première langue étrangère et l'anglais comme deuxième langue étrangère.",
+    ],
+    description2: [
+      "Pour nous, il est important d'offrir cette opportunité à nos élèves afin qu'ils ne soient pas désavantagés dans un marché du travail de plus en plus exigeant en compétences linguistiques.",
+      "De plus, au I.E.S. Siglo XXI, nous aimons apprendre le français et découvrir la culture francophone… Voici quelques exemples d'activités que nous organisons dans le cadre du Bilinguisme :",
+    ],
+    talleres: [
+      "1. Ateliers de crêpes et de gaufres de Bruxelles.",
+      "2. Activités pour la Journée de l'Andalousie.",
+      "3. Notre 'Mur des je t’aime' pour la Saint-Valentin.",
+      "4. Nous célébrons la Journée de l'environnement.",
+    ],
+  },
+  erasmusp: {
+    title: "ERASMUS+",
+    description: "Ce projet vise à contribuer au processus de transformation de l'établissement en Communauté d'Apprentissage, au renforcement de ses structures, à l'ouverture de l'institut, à l'enrichissement de son offre éducative et à l'émergence de nouvelles perspectives au sein de la communauté éducative qui le compose.",
+    tobjetivo: "Objectifs du projet",
+    tituloobj: [
+      "Communautés d'Apprentissage",
+      "Compétences Numériques",
+      "Méthodologies Innovantes",
+    ],
+    objdescript: [
+      "Connaître et étudier de manière comparative des expériences de Communautés d'Apprentissage dans des contextes éducatifs européens, avec des applications possibles dans notre établissement.",
+      "Améliorer les compétences numériques des enseignants pour la transformation numérique de l'établissement, en encourageant l'utilisation de nouvelles technologies et de méthodes pédagogiques innovantes.",
+      "Explorer des méthodologies pour l'enseignement de matières avec des langues étrangères et promouvoir la culture de la mobilité européenne au sein de l'établissement.",
+    ],
   }
+  
 };
 export default fr;

@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { FaBullseye, FaProjectDiagram, FaRocket, FaLightbulb, FaHandshake } from "react-icons/fa";
 
 export default function ProaTransformate() {
   const { t } = useLanguage();
@@ -18,22 +19,53 @@ export default function ProaTransformate() {
           <p className="text-lg text-gray-800 dark:text-gray-300 leading-relaxed text-center max-w-4xl mx-auto">
             {t.proat.description}
           </p>
-          
         </div>
 
-        {/* Pasos Enumerados */}
+        {/* Pasos Clave del Proyecto */}
         <div>
           <h2 className="text-2xl font-bold text-center text-background-secondary dark:text-blue-300 mb-6">
             Pasos Clave del Proyecto
           </h2>
-          <ol className="list-decimal pl-8 space-y-4 text-lg text-gray-800 dark:text-gray-300">
-            {t.proat.steps.map((step, index) => (
-              <li key={index} className="flex items-start space-x-2">
-                <span className="text-blue-500 font-bold">{`${index + 1}.`}</span>
-                <p>{step}</p>
-              </li>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              {
+                icon: <FaBullseye className="text-blue-500 text-4xl" />,
+                title: "Definir Metas",
+                description: t.proat.steps[0],
+              },
+              {
+                icon: <FaProjectDiagram className="text-green-500 text-4xl" />,
+                title: "Diseñar Estrategias",
+                description: t.proat.steps[1],
+              },
+              {
+                icon: <FaRocket className="text-red-500 text-4xl" />,
+                title: "Implementar Acciones",
+                description: t.proat.steps[2],
+              },
+              {
+                icon: <FaLightbulb className="text-yellow-500 text-4xl" />,
+                title: "Evaluar Resultados",
+                description: t.proat.steps[3],
+              },
+              {
+                icon: <FaHandshake className="text-purple-500 text-4xl" />,
+                title: "Fomentar la Colaboración",
+                description: t.proat.steps[4],
+              },
+            ].map((step, index) => (
+              <div
+                key={index}
+                className="flex flex-col items-center text-center bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-transform duration-300"
+              >
+                <div className="mb-4">{step.icon}</div>
+                <h3 className="text-xl font-bold text-background-secondary dark:text-blue-400 mb-2">
+                  {step.title}
+                </h3>
+                <p className="text-gray-800 dark:text-gray-300">{step.description}</p>
+              </div>
             ))}
-          </ol>
+          </div>
         </div>
 
         {/* Imagen Representativa */}
