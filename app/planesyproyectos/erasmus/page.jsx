@@ -43,8 +43,7 @@ export default function Erasmus() {
                   </svg>
                 ),
                 title: `${t.erasmusp.tituloobj[0]}`,
-                description:
-                  `${t.erasmusp.objdescript[0]}`,
+                description: `${t.erasmusp.objdescript[0]}`,
               },
               {
                 icon: (
@@ -112,14 +111,32 @@ export default function Erasmus() {
           </h2>
           <ul className="space-y-4 text-lg text-gray-800 dark:text-gray-300 list-disc list-inside">
             {[
-              "Bases de la convocatoria de becas de FP para la realización de prácticas en Europa.",
-              "Convenio de subvención del programa ERASMUS+.",
-              "Acreditación para coordinador de un consorcio de movilidad.",
-              "Baremación de los méritos del profesorado.",
+              {
+                text: "Bases de la convocatoria de becas de FP para la realización de prácticas en Europa.",
+                link: "#",
+              },
+              {
+                text: "Convenio de subvención del programa ERASMUS+.",
+                link: "#",
+              },
+              {
+                text: "Acreditación para coordinador de un consorcio de movilidad.",
+                link: "#",
+              },
+              {
+                text: "Baremación de los méritos del profesorado.",
+                link: "#",
+              },
             ].map((doc, index) => (
-              <li key={index} className="flex items-start space-x-2">
-                <span className="text-blue-500 font-bold">•</span>
-                <p>{doc}</p>
+              <li key={index}>
+                <a
+                  href={doc.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:underline"
+                >
+                  {doc.text}
+                </a>
               </li>
             ))}
           </ul>
