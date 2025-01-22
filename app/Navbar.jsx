@@ -370,26 +370,26 @@ export default function Navbar() {
                     >
                       Français
                     </button>
-                    <a
+                    <Link
                       href="/auth/login"
                       className="block w-full text-left px-4 py-2 text-sm text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
                     >
                       Iniciar Sesión
-                    </a>
+                    </Link>
                     {isUserAuthenticated && (
                       <>
-                        <a
+                        <Link
                           href="/edit/noticiaspost"
                           className="block w-full text-left px-4 py-2 text-sm text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
                         >
                           Editar Carrusel
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="/edit/personalpost"
                           className="block w-full text-left px-4 py-2 text-sm text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
                         >
                           Editar Organización
-                        </a>
+                        </Link>
                         <button
                           onClick={logout}
                           className="block w-full text-left px-4 py-2 text-sm text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"

@@ -3,7 +3,8 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { EyeIcon, EyeSlashIcon } from "@heroicons/react/24/outline";
-import { FaSpinner } from "react-icons/fa"; 
+import { FaSpinner } from "react-icons/fa";
+import Link from "next/link";
 import api from "@/utils/api";
 
 export default function LoginPage() {
@@ -92,9 +93,9 @@ export default function LoginPage() {
         </button>
       </form>
       <div className="mt-4">
-        <a href="/" className="text-blue-600 hover:underline">
+        <Link href="/" className="text-blue-600 hover:underline">
             Ir a la página principal
-        </a>
+        </Link>
       </div>
     </div>
   );
