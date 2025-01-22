@@ -28,11 +28,10 @@ export default function Navbar() {
 
   const router = useRouter();
   const logout = () => {
-    localStorage.removeItem("token"); 
+    localStorage.removeItem("token");
     router.push("/");
     window.location.reload();
   };
-  
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -353,19 +352,28 @@ export default function Navbar() {
                     </button>
 
                     <button
-                      onClick={() => setLanguage("en")}
+                      onClick={() => {
+                        setLanguage("en");
+                        setSettingsOpen(false);
+                      }}
                       className="block w-full text-left px-4 py-2 text-sm text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
                     >
                       English
                     </button>
                     <button
-                      onClick={() => setLanguage("es")}
+                      onClick={() => {
+                        setLanguage("es");
+                        setSettingsOpen(false);
+                      }}
                       className="block w-full text-left px-4 py-2 text-sm text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
                     >
                       Español
                     </button>
                     <button
-                      onClick={() => setLanguage("fr")}
+                      onClick={() => {
+                        setLanguage("fr");
+                        setSettingsOpen(false);
+                      }}
                       className="block w-full text-left px-4 py-2 text-sm text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
                     >
                       Français
@@ -382,13 +390,25 @@ export default function Navbar() {
                           href="/edit/noticiaspost"
                           className="block w-full text-left px-4 py-2 text-sm text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
                         >
-                          Editar Carrusel
+                          <button
+                            onClick={() => {
+                              settingsOpen(false);
+                            }}
+                          >
+                            Editar Carrusel
+                          </button>
                         </Link>
                         <Link
                           href="/edit/personalpost"
                           className="block w-full text-left px-4 py-2 text-sm text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
                         >
-                          Editar Organización
+                          <button
+                            onClick={() => {
+                              settingsOpen(false);
+                            }}
+                          >
+                            Editar Organización
+                          </button>
                         </Link>
                         <button
                           onClick={logout}
@@ -398,7 +418,6 @@ export default function Navbar() {
                         </button>
                       </>
                     )}
-                    
                   </div>
                 )}
               </div>
