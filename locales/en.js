@@ -37,7 +37,6 @@ const en = {
     paragraphs: [
       "Our educational offer covers from Compulsory Secondary Education (ESO) to Vocational Training, including Dual Vocational Training places. We are a bilingual center in French, which allows us to provide an enriched education in a multicultural environment. Currently, we have Intermediate Vocational Training programs in Welding and Boilermaking, belonging to the professional family of Manufacturing and Assembly.",
       "Starting in the 2024/2025 school year, our DUAL VET students will have the opportunity to combine classroom training with internships in partner companies, allowing them to gain real-world experience in the productive sector.",
-      "As part of our commitment to professional growth, we offer our students the opportunity to obtain recognized certifications that expand their curriculum and career opportunities. In addition, we actively participate in various educational programs and projects that enrich the learning experience of our students."
     ],
     imageCaption: "Photograph of IES SIGLO XXI",
     locationTitle: "Our Location",
