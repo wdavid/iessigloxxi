@@ -1,12 +1,16 @@
-// RootLayout.js
 "use client";
 import "./globals.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { metadata } from "./metadata";
 import { LanguageProvider } from "/contexts/LanguageContext";
+import { usePathname } from "next/navigation";
 
 export default function RootLayout({ children }) {
+  const pathname = usePathname(); 
+
+  const isLoginPage = pathname === "/auth/login";
+
   return (
     <html lang="es">
       <head>
@@ -27,7 +31,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className="bg-background-primary dark:bg-black font-Nunito-sans">
         <LanguageProvider>
-          <Navbar />
+          {!isLoginPage && <Navbar />}
           {children}
           <Footer />
         </LanguageProvider>
