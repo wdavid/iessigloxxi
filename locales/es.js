@@ -39,7 +39,6 @@ const es = {
     paragraphs: [
       "Nuestra oferta educativa abarca desde la Educación Secundaria Obligatoria (ESO) hasta la Formación Profesional, incluyendo plazas de Formación Profesional Dual. Somos un centro bilingüe en Francés, lo que nos permite ofrecer una educación enriquecida en un entorno multicultural. Actualmente, contamos con Ciclos Formativos de Grado Medio en Soldadura y Calderería, pertenecientes a la familia profesional de Fabricación y Montaje.",
       "A partir del curso 2024/2025, nuestros estudiantes de FP DUAL tendrán la oportunidad de combinar la formación en el aula con prácticas en empresas colaboradoras, lo que les permitirá adquirir experiencia real en el sector productivo.",
-      "Como parte de nuestro compromiso con el crecimiento profesional, ofrecemos a nuestros estudiantes la posibilidad de obtener certificaciones reconocidas que amplían su currículum y oportunidades laborales. Además, participamos activamente en diversos programas y proyectos educativos que enriquecen la experiencia formativa de nuestro alumnado.",
     ],
     imageCaption: "Fotografía de IES SIGLO XXI",
     locationTitle: "Nuestra Ubicación",

@@ -37,7 +37,6 @@ const fr = {
     paragraphs: [
       "Notre offre éducative couvre de l'enseignement secondaire obligatoire (ESO) à la formation professionnelle, y compris les places de formation professionnelle en alternance. Nous sommes un centre bilingue en français, ce qui nous permet d'offrir une éducation enrichie dans un environnement multiculturel. Actuellement, nous proposons des cycles de formation intermédiaire en soudure et chaudronnerie, appartenant à la famille professionnelle de la fabrication et de l'assemblage.",
       "À partir de l'année scolaire 2024/2025, nos étudiants de FP DUAL auront l'opportunité de combiner la formation en classe avec des stages dans des entreprises partenaires, leur permettant d'acquérir une expérience réelle dans le secteur productif.",
-      "Dans le cadre de notre engagement envers la croissance professionnelle, nous offrons à nos étudiants la possibilité d'obtenir des certifications reconnues qui enrichissent leur curriculum et leurs opportunités de carrière. De plus, nous participons activement à divers programmes et projets éducatifs qui enrichissent l'expérience d'apprentissage de nos élèves."
     ],
     imageCaption: "Photographie de l'IES SIGLO XXI",
     locationTitle: "Notre Emplacement",
