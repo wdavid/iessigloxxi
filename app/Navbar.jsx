@@ -5,8 +5,11 @@ import { usePathname } from "next/navigation";
 import { BsChevronDown, BsGear } from "react-icons/bs";
 import { BsMoon, BsSun } from "react-icons/bs";
 import { useLanguage } from "../contexts/LanguageContext";
+import { isAuthenticated } from "@/utils/auth";
+import { useRouter } from "next/navigation";
 
 export default function Navbar() {
+  const [isUserAuthenticated, setIsUserAuthenticated] = useState(false);
   const { language, setLanguage, t } = useLanguage();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -18,6 +21,18 @@ export default function Navbar() {
   });
   const pathname = usePathname();
   const [settingsOpen, setSettingsOpen] = useState(false);
+
+  useEffect(() => {
+    setIsUserAuthenticated(isAuthenticated());
+  }, []);
+
+  const router = useRouter();
+  const logout = () => {
+    localStorage.removeItem("token"); 
+    router.push("/");
+    window.location.reload();
+  };
+  
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -355,6 +370,35 @@ export default function Navbar() {
                     >
                       Français
                     </button>
+                    <a
+                      href="/auth/login"
+                      className="block w-full text-left px-4 py-2 text-sm text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+                    >
+                      Iniciar Sesión
+                    </a>
+                    {isUserAuthenticated && (
+                      <>
+                        <a
+                          href="/edit/noticiaspost"
+                          className="block w-full text-left px-4 py-2 text-sm text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+                        >
+                          Editar Carrusel
+                        </a>
+                        <a
+                          href="/edit/personalpost"
+                          className="block w-full text-left px-4 py-2 text-sm text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+                        >
+                          Editar Organización
+                        </a>
+                        <button
+                          onClick={logout}
+                          className="block w-full text-left px-4 py-2 text-sm text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+                        >
+                          Cerrar Sesión
+                        </button>
+                      </>
+                    )}
+                    
                   </div>
                 )}
               </div>
