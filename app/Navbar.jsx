@@ -392,7 +392,7 @@ export default function Navbar() {
                         >
                           <button
                             onClick={() => {
-                              settingsOpen(false);
+                              setSettingsOpen(false);
                             }}
                           >
                             Editar Carrusel
@@ -404,7 +404,7 @@ export default function Navbar() {
                         >
                           <button
                             onClick={() => {
-                              settingsOpen(false);
+                              setSettingsOpen(false);
                             }}
                           >
                             Editar Organización
